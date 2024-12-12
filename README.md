@@ -1,5 +1,5 @@
 <!--markdownlint-disable-next-line MD033 MD045 -->
-# <img src="https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-imazing@ede691e547ad2556b970ab39623da4b8e319b8b9/imazing.svg" width="48" height="48"/> Chocolatey Package: [iMazing](https://community.chocolatey.org/packages/imazing)
+# <img src="https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-imazing@2bb0b9fc109139490c60bef0777617b7c1cd418d/imazing2.svg" width="48" height="48"/> Chocolatey Package: [iMazing](https://community.chocolatey.org/packages/imazing)
 
 [![Latest package version shield](https://img.shields.io/chocolatey/v/imazing.svg)](https://community.chocolatey.org/packages/imazing)
 [![Total package download count shield](https://img.shields.io/chocolatey/dt/imazing.svg)](https://community.chocolatey.org/packages/imazing)
