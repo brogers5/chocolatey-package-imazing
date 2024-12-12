@@ -1,16 +1,14 @@
-﻿$packageName = 'imazing'
-$installerType = 'exe'
-$silentArgs = '/VERYSILENT'
-$toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://downloads.imazing.com/windows/iMazing/2.16.9/iMazing_2.16.9.exe'
-$checksum = '4bc641cab1cf7260b55cd2564db529b2eed88d266def0ea7c0f587db5f32498c'
-$checksumType = 'sha256'
-$validExitCodes = @(0)
- 
-Install-ChocolateyPackage -PackageName "$packageName" `
-                          -FileType "$installerType" `
-                          -SilentArgs "$silentArgs" `
-                          -Url "$url" `
-                          -ValidExitCodes $validExitCodes `
-                          -Checksum "$checksum" `
-                          -ChecksumType "$checksumType"
+﻿$ErrorActionPreference = 'Stop' # stop on all errors
+
+$packageArgs = @{
+    packageName    = $env:ChocolateyPackageName
+    fileType       = 'EXE'
+    url            = 'https://downloads.imazing.com/windows/iMazing/3.0.6/iMazing_3.0.6.exe'
+    softwareName   = 'iMazing'
+    checksum       = '76c97ce8f099642ed932ec5179f3fb532d552341a492479e91ea27597e33ac96'
+    checksumType   = 'sha256'
+    validExitCodes = @(0)
+    silentArgs     = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /LOG=`"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).Install.log"
+}
+
+Install-ChocolateyPackage @packageArgs

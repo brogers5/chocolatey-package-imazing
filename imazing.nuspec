@@ -1,25 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>imazing</id>
-    <title>imazing</title>
-    <version>2.16.9.0</version>
+    <version>3.0.6</version>
+    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-imazing/tree/v3.0.6</packageSourceUrl>
+    <owners>MANICX100, sublym0nal</owners>
+    <title>iMazing</title>
     <authors>DigiDNA</authors>
-    <owners>MANICX100</owners>
-    <summary>iMazing is mobile device management software that allows users to transfer files and data between iOS devices Computers without the limitations of iTunes.</summary>
-    <description>
-iMazing is mobile device management software that allows users to transfer files and data between iOS devices Computers without the limitations of iTunes.
-    </description>
     <projectUrl>https://imazing.com/</projectUrl>
-    <packageSourceUrl>https://github.com/MANICX100/chocolatey/tree/master/imazing</packageSourceUrl>
-    <iconUrl>https://rawcdn.githack.com/MANICX100/chocolatey/e8893bd51ebbba471b4745262326770198db04d7/imazing/logo.svg</iconUrl>
-    <tags>ios imazing itunes</tags>
-    <copyright>DigiDNA</copyright>
+    <iconUrl>https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-imazing@ede691e547ad2556b970ab39623da4b8e319b8b9/imazing.svg</iconUrl>
+    <copyright>© DigiDNA SARL, 2008-2024. All rights reserved.</copyright>
     <licenseUrl>https://imazing.com/licensing-policy</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>https://downloads.imazing.com/windows/iMazing/2.16.9/release-notes.html</releaseNotes>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Project is closed-source</projectSourceUrl>-->
+    <docsUrl>https://support.imazing.com/hc/en-us</docsUrl>
+    <mailingListUrl>https://www.reddit.com/r/iMazing/</mailingListUrl>
+    <!--<bugTrackerUrl>No public-facing issue tracker is available</bugTrackerUrl>-->
+    <tags>imazing ios iphone ipados ipad sync backup trial cross-platform</tags>
+    <summary>The world's most trusted software to transfer and save your messages, music, files and data from your iPhone or iPad to your PC.</summary>
+    <description><![CDATA[## iMazing
+
+Manage your iPhone. On your terms.
+
+iMazing is the world’s most trusted software to transfer and save your messages, music, files and data from your iPhone or iPad to your PC.
+
+Gain powerful backup, data extraction, media, and file transfer capabilities, and much more with iMazing.
+
+![iMazing Screenshot](https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-imazing@b998cb9444ea04affbfa1d25aec3acf27bd71341/Screenshot.png)
+
+### Features
+
+* **Manage** several types of data, files, and apps, including:
+  * Backups
+  * Photos
+  * Music
+  * Messages
+  * WhatsApp
+  * Phone
+  * Apps
+  * Safari
+  * Notes
+  * Contacts
+  * Calendar
+  * Voice Memos
+  * Books
+  * Ringtones
+  * File System
+* **Quick Transfer** - Copying music, photos, movies, documents and files from your PC to your iPhone or iPad has never been easier with iMazing Quick Transfer. And it's a 100% free feature... Enjoy!
+* **Spyware Analyzer** - Easily scan your iPhone or iPad for possible spyware or stalkerware.
+* **Transfer** - Easily copy all the content from your old iPhone or iPad to a new one. Choose which iOS apps and data you want to keep. iMazing ensures a private and configurable data transfer, without iTunes or iCloud.
+* **Backup Extractor** - Explore the file system and data of your iPhone and iPad backups on your PC. Recover any file, even from encrypted backups. Edit backups for advanced fixes and tweaks.
+* **Advanced iOS Management** - iMazing is a great iOS manager for power users. Enjoy exclusive features like advanced connectivity, backup, and diagnostics solutions. All specifically developed for sys admins, developers, and geeks.
+* **Supervision** - Make the most of your business iOS devices with supervision: easily put iPad in Kiosk Mode, unlock advanced security options or manage restrictions. Works with or without an MDM.
+* **Configurator** - Discover powerful tools designed to help sys admins configure and provision fleets of Apple mobile devices, including iPhone, iPad, iPod touch and Apple TV.
+* **Profile Editor** - Create, Edit, and Sign Apple Configuration Profiles.
+]]></description>
+    <releaseNotes>https://downloads.imazing.com/windows/iMazing/3.0.6/release-notes.html</releaseNotes>
     <dependencies>
       <dependency id="dotnetfx" version="4.6.2.0" />
+      <!--Version should be 3.1.0.1, but no such version has been published to the Community Repository-->
+      <!--Leaving commented out for now and letting iMazing install it for now until package is fixed-->
+      <!-- <dependency id="bonjour" version="3.1.0.2" /> -->
     </dependencies>
   </metadata>
   <files>
