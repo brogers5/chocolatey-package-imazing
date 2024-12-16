@@ -60,8 +60,7 @@ Gain powerful backup, data extraction, media, and file transfer capabilities, an
     <dependencies>
       <dependency id="dotnetfx" version="4.6.2.0" />
       <!--Version should be 3.1.0.1, but no such version has been published to the Community Repository-->
-      <!--Leaving commented out for now and letting iMazing install it for now until package is fixed-->
-      <!-- <dependency id="bonjour" version="3.1.0.2" /> -->
+      <dependency id="bonjour" version="3.1.0.5" />
     </dependencies>
   </metadata>
   <files>
