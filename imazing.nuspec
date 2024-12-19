@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>imazing</id>
-    <version>2.18.1</version>
-    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-imazing/tree/v2.18.1</packageSourceUrl>
+    <version>3.0.6.1</version>
+    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-imazing/tree/v3.0.6.1</packageSourceUrl>
     <owners>MANICX100, sublym0nal</owners>
     <title>iMazing</title>
     <authors>DigiDNA</authors>
     <projectUrl>https://imazing.com/</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-imazing@2bb0b9fc109139490c60bef0777617b7c1cd418d/imazing2.svg</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-imazing@2bb0b9fc109139490c60bef0777617b7c1cd418d/imazing3.svg</iconUrl>
     <copyright>© DigiDNA SARL, 2008-2024. All rights reserved.</copyright>
     <licenseUrl>https://imazing.com/licensing-policy</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -56,7 +56,7 @@ Gain powerful backup, data extraction, media, and file transfer capabilities, an
 * **Configurator** - Discover powerful tools designed to help sys admins configure and provision fleets of Apple mobile devices, including iPhone, iPad, iPod touch and Apple TV.
 * **Profile Editor** - Create, Edit, and Sign Apple Configuration Profiles.
 ]]></description>
-    <releaseNotes>https://downloads.imazing.com/windows/iMazing/2.18.1/release-notes.html</releaseNotes>
+    <releaseNotes>https://downloads.imazing.com/windows/iMazing/3.0.6.1/release-notes.html</releaseNotes>
     <dependencies>
       <dependency id="dotnetfx" version="4.6.2.0" />
       <!--Version should be 3.1.0.1, but no such version has been published to the Community Repository-->
