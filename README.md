@@ -12,7 +12,7 @@
 choco install imazing --source="'https://community.chocolatey.org/api/v2'"
 ```
 
-Alternatively, the packages as published on the Chocolatey Community Repository (starting with v3.0.6) will also be mirrored on this repository's [Releases page](https://github.com/brogers5/chocolatey-package-imazing/releases). The `nupkg` can be installed from the current directory (with dependencies sourced from the Community Repository) as follows:
+Alternatively, the packages as published on the Chocolatey Community Repository (starting with v2.18.1) will also be mirrored on this repository's [Releases page](https://github.com/brogers5/chocolatey-package-imazing/releases). The `nupkg` can be installed from the current directory (with dependencies sourced from the Community Repository) as follows:
 
 ```shell
 choco install imazing --source="'.;https://community.chocolatey.org/api/v2/'"
