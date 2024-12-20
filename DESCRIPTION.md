@@ -34,3 +34,7 @@ Gain powerful backup, data extraction, media, and file transfer capabilities, an
 * **Supervision** - Make the most of your business iOS devices with supervision: easily put iPad in Kiosk Mode, unlock advanced security options or manage restrictions. Works with or without an MDM.
 * **Configurator** - Discover powerful tools designed to help sys admins configure and provision fleets of Apple mobile devices, including iPhone, iPad, iPod touch and Apple TV.
 * **Profile Editor** - Create, Edit, and Sign Apple Configuration Profiles.
+
+## Package Parameters
+
+* `/NoShim` - Opt out of creating a shim, and removes any existing shim.
