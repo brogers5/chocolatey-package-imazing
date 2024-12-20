@@ -29,6 +29,9 @@ choco pack
 A successful build will create `imazing.x.y.z.nupkg`, where `x.y.z` should be the Nuspec's normalized `version` value at build time.
 
 >[!Note]
+>DigiDNA typically uses a 3-part version number for non-patch releases. Occasionally, they will create a patch release with four-part version numbers instead, so the filename pattern should be expected to change accordingly.
+
+>[!Note]
 >Chocolatey package builds are non-deterministic. Consequently, an independently built package's checksum will not match that of the officially published package.
 
 ## Update
