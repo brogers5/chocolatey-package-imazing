@@ -2,11 +2,39 @@
 param($IncludeStream)
 Import-Module au
 
-function global:au_BeforeUpdate ($Package) {
-    $Latest.ChecksumType32 = 'sha256'
-    $Latest.Checksum32 = Get-RemoteChecksum -Url $Latest.Url32 -Algorithm SHA256
+function Get-InstallScript($FilePath) {
+    if (!(Get-Command 'innounp.exe' -ErrorAction SilentlyContinue)) {
+        Write-Information 'innounp is not available on PATH, installing...'
+        choco install innounp -y
+    }
 
-    Set-DescriptionFromReadme -Package $Package -ReadmePath '.\DESCRIPTION.md'
+    $installScriptFileName = 'install_script.iss'
+    innounp -x $FilePath $installScriptFileName -y
+}
+
+function Set-DocumentVersion($RelativeFilePath) {
+    $fileContents = Get-Content -Path $RelativeFilePath -Encoding UTF8
+    $fileContents = $fileContents -replace '/tree/v.*\/', "/tree/v$($Latest.Version)/"
+
+    $encoding = New-Object System.Text.UTF8Encoding($false)
+    $output = $fileContents | Out-String
+    $absoluteFilePath = (Get-Item -Path $RelativeFilePath).FullName
+    [System.IO.File]::WriteAllText($absoluteFilePath, $output, $encoding)
+}
+
+function global:au_BeforeUpdate ($Package) {
+    $tempFilePath = New-TemporaryFile
+    Invoke-WebRequest -Uri $Latest.Url32 -OutFile $tempFilePath
+
+    $Latest.ChecksumType32 = 'sha256'
+    $Latest.Checksum32 = (Get-FileHash -Path $tempFilePath -Algorithm SHA256).Hash.ToLower()
+    Get-InstallScript -FilePath $tempFilePath
+
+    Remove-Item $tempFilePath -Force
+
+    $descriptionRelativePath = '.\DESCRIPTION.md'
+    Set-DocumentVersion -RelativeFilePath $descriptionRelativePath
+    Set-DescriptionFromReadme -Package $Package -ReadmePath $descriptionRelativePath
 }
 
 function global:au_SearchReplace {
