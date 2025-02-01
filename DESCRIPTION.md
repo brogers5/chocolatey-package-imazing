@@ -38,3 +38,7 @@ Gain powerful backup, data extraction, media, and file transfer capabilities, an
 ## Package Parameters
 
 * `/NoShim` - Opt out of creating a shim, and removes any existing shim.
+
+## Package Notes
+
+The installer executed by this package was built using Inno Setup. For advanced setup scenarios, refer to [Inno Setup's command-line interface documentation](https://jrsoftware.org/ishelp/index.php?topic=setupcmdline) and [iMazing's Guide for Enterprise Environments](https://imazing.com/documentation/Install-Uninstall-iMazing-in-Enterprise-Environments.pdf). Any desired arguments can be appended to (or optionally overriding with the `--override-arguments` switch) the package's default install arguments with the `--install-arguments` option.
