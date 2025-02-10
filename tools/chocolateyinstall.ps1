@@ -9,7 +9,7 @@ $packageArgs = @{
     checksum       = 'b8bed087048c637b0a46971f7e2f366281afc2f55b7439f5b75783565717a634'
     checksumType   = 'sha256'
     validExitCodes = @(0)
-    silentArgs     = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /DONTSTART /LOG=`"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).Install.log"
+    silentArgs     = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /DONTINSTALLAPPLECOMPONENTS /DONTSTART /LOG=`"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).Install.log"
 }
 
 Install-ChocolateyPackage @packageArgs

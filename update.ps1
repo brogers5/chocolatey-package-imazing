@@ -14,6 +14,7 @@ function Get-InstallScript($FilePath) {
 
 function Set-DocumentVersion($RelativeFilePath) {
     $fileContents = Get-Content -Path $RelativeFilePath -Encoding UTF8
+    $fileContents = $fileContents -replace '/blob/v.*\/', "/blob/v$($Latest.Version)/"
     $fileContents = $fileContents -replace '/tree/v.*\/', "/tree/v$($Latest.Version)/"
 
     $encoding = New-Object System.Text.UTF8Encoding($false)
@@ -34,6 +35,8 @@ function global:au_BeforeUpdate ($Package) {
 
     $descriptionRelativePath = '.\DESCRIPTION.md'
     Set-DocumentVersion -RelativeFilePath $descriptionRelativePath
+    Set-DocumentVersion -RelativeFilePath '.\PACKAGE-NOTES.md'
+
     Set-DescriptionFromReadme -Package $Package -ReadmePath $descriptionRelativePath
 }
 
