@@ -2,9 +2,9 @@
 
 [Setup]
 AppName=iMazing
-AppVerName=iMazing 3.0.6.1
+AppVerName=iMazing 3.1.0.0
 AppId=iMazing
-AppVersion=3.0.6.1
+AppVersion=3.1.0.0
 AppPublisher=DigiDNA
 AppPublisherURL=https://imazing.com
 AppSupportURL=https://imazing.com/support
@@ -13,7 +13,7 @@ DefaultDirName={pf}\DigiDNA\iMazing
 DefaultGroupName=iMazing
 UninstallDisplayIcon={app}\iMazing.exe
 UninstallDisplayName=iMazing
-OutputBaseFilename=tmpeextnu.tmp
+OutputBaseFilename=tmprabqbi.tmp
 Compression=lzma
 ArchitecturesInstallIn64BitMode=x64
 DisableDirPage=auto
@@ -260,8 +260,6 @@ Source: "{app}\WebView2Loader,1.dll"; DestDir: "{app}"; DestName: "WebView2Loade
 Source: "{app}\YamlDotNet,1.dll"; DestDir: "{app}"; DestName: "YamlDotNet.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\zlib,1.dll"; DestDir: "{app}"; DestName: "zlib.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\arm64\libSkiaSharp,1.dll"; DestDir: "{app}\arm64"; DestName: "libSkiaSharp.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\collapseChevronCollapsed@2x,1.png"; DestDir: "{app}\Images"; DestName: "collapseChevronCollapsed@2x.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\collapseChevronExpanded@2x,1.png"; DestDir: "{app}\Images"; DestName: "collapseChevronExpanded@2x.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Images\com.apple.AppStore,1.png"; DestDir: "{app}\Images"; DestName: "com.apple.AppStore.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Images\com.apple.Bridge,1.png"; DestDir: "{app}\Images"; DestName: "com.apple.Bridge.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Images\com.apple.camera,1.png"; DestDir: "{app}\Images"; DestName: "com.apple.camera.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -281,13 +279,8 @@ Source: "{app}\Images\com.apple.Preferences,1.png"; DestDir: "{app}\Images"; Des
 Source: "{app}\Images\domainIconDefault,1.png"; DestDir: "{app}\Images"; DestName: "domainIconDefault.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Images\domainIconunfamiliar,1.png"; DestDir: "{app}\Images"; DestName: "domainIconunfamiliar.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Images\iconPlaceholder,1.png"; DestDir: "{app}\Images"; DestName: "iconPlaceholder.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\searchBarConfiguredDark@2x,1.png"; DestDir: "{app}\Images"; DestName: "searchBarConfiguredDark@2x.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\searchBarConfiguredLight@2x,1.png"; DestDir: "{app}\Images"; DestName: "searchBarConfiguredLight@2x.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\searchBarFilterDark@2x,1.png"; DestDir: "{app}\Images"; DestName: "searchBarFilterDark@2x.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\searchBarFilterLight@2x,1.png"; DestDir: "{app}\Images"; DestName: "searchBarFilterLight@2x.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Images\toolbarDefaults@2x,1.png"; DestDir: "{app}\Images"; DestName: "toolbarDefaults@2x.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Images\toolbarGeneral@2x,1.png"; DestDir: "{app}\Images"; DestName: "toolbarGeneral@2x.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\toolbarMaintenance@2x,1.png"; DestDir: "{app}\Images"; DestName: "toolbarMaintenance@2x.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Images\toolbarManifests@2x,1.png"; DestDir: "{app}\Images"; DestName: "toolbarManifests@2x.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Images\updates@2x,1.png"; DestDir: "{app}\Images"; DestName: "updates@2x.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\nl\PdfiumViewer.resources,1.dll"; DestDir: "{app}\nl"; DestName: "PdfiumViewer.resources.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -531,8 +524,6 @@ Source: "{app}\WebView2Loader,2.dll"; DestDir: "{app}"; DestName: "WebView2Loade
 Source: "{app}\YamlDotNet,2.dll"; DestDir: "{app}"; DestName: "YamlDotNet.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\zlib,2.dll"; DestDir: "{app}"; DestName: "zlib.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\arm64\libSkiaSharp,2.dll"; DestDir: "{app}\arm64"; DestName: "libSkiaSharp.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\collapseChevronCollapsed@2x,2.png"; DestDir: "{app}\Images"; DestName: "collapseChevronCollapsed@2x.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\collapseChevronExpanded@2x,2.png"; DestDir: "{app}\Images"; DestName: "collapseChevronExpanded@2x.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Images\com.apple.AppStore,2.png"; DestDir: "{app}\Images"; DestName: "com.apple.AppStore.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Images\com.apple.Bridge,2.png"; DestDir: "{app}\Images"; DestName: "com.apple.Bridge.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Images\com.apple.camera,2.png"; DestDir: "{app}\Images"; DestName: "com.apple.camera.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -552,13 +543,8 @@ Source: "{app}\Images\com.apple.Preferences,2.png"; DestDir: "{app}\Images"; Des
 Source: "{app}\Images\domainIconDefault,2.png"; DestDir: "{app}\Images"; DestName: "domainIconDefault.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Images\domainIconunfamiliar,2.png"; DestDir: "{app}\Images"; DestName: "domainIconunfamiliar.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Images\iconPlaceholder,2.png"; DestDir: "{app}\Images"; DestName: "iconPlaceholder.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\searchBarConfiguredDark@2x,2.png"; DestDir: "{app}\Images"; DestName: "searchBarConfiguredDark@2x.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\searchBarConfiguredLight@2x,2.png"; DestDir: "{app}\Images"; DestName: "searchBarConfiguredLight@2x.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\searchBarFilterDark@2x,2.png"; DestDir: "{app}\Images"; DestName: "searchBarFilterDark@2x.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\searchBarFilterLight@2x,2.png"; DestDir: "{app}\Images"; DestName: "searchBarFilterLight@2x.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Images\toolbarDefaults@2x,2.png"; DestDir: "{app}\Images"; DestName: "toolbarDefaults@2x.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Images\toolbarGeneral@2x,2.png"; DestDir: "{app}\Images"; DestName: "toolbarGeneral@2x.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\toolbarMaintenance@2x,2.png"; DestDir: "{app}\Images"; DestName: "toolbarMaintenance@2x.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Images\toolbarManifests@2x,2.png"; DestDir: "{app}\Images"; DestName: "toolbarManifests@2x.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Images\updates@2x,2.png"; DestDir: "{app}\Images"; DestName: "updates@2x.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\nl\PdfiumViewer.resources,2.dll"; DestDir: "{app}\nl"; DestName: "PdfiumViewer.resources.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -766,6 +752,9 @@ Source: "{app}\Resources\OrganizationTemplate.ico"; DestDir: "{app}\Resources"; 
 Source: "{app}\Resources\PauseButtonTemplate.ico"; DestDir: "{app}\Resources"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\PausedTemplate.ico"; DestDir: "{app}\Resources"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\PauseFillTemplate.ico"; DestDir: "{app}\Resources"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\pdf-footer-icon-im-signed.jpg"; DestDir: "{app}\Resources"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\pdf-footer-icon-im-signed.png"; DestDir: "{app}\Resources"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\pdf-footer-icon-im-unsigned.png"; DestDir: "{app}\Resources"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoBurst.ico"; DestDir: "{app}\Resources"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoBurstBadge.ico"; DestDir: "{app}\Resources"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoBurstCheck.ico"; DestDir: "{app}\Resources"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -1509,25 +1498,28 @@ Source: "{app}\Resources\DDNAToolKit\iOS11-screen-hello-3to2.png"; DestDir: "{ap
 Source: "{app}\Resources\DDNAToolKit\iOS11-screen-hello-4to3.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\iOS11-screen-hello-71to40.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\iOS11-screen-hello-812to375.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Resources\DDNAToolKit\iOS11-screen-recovery-3to2-30pin.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Resources\DDNAToolKit\iOS11-screen-recovery-3to2-lightning.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Resources\DDNAToolKit\iOS11-screen-recovery-4to3-30pin.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Resources\DDNAToolKit\iOS11-screen-recovery-4to3-lightning.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Resources\DDNAToolKit\iOS11-screen-recovery-71to40-lightning.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Resources\DDNAToolKit\iOS11-screen-recovery-812to375-lightning.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Resources\DDNAToolKit\iOS11-screen-recovery-appletv-atv5.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Resources\DDNAToolKit\iOS11-screen-recovery-appletv.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Resources\DDNAToolKit\iOS11-screen-restore-3to2.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Resources\DDNAToolKit\iOS11-screen-restore-4to3.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Resources\DDNAToolKit\iOS11-screen-restore-71to40.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Resources\DDNAToolKit\iOS11-screen-restore-812to375.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\iOS15-screen-hello-3to2.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\iOS15-screen-hello-4to3.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\iOS15-screen-hello-71to40.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\iOS15-screen-hello-812to375.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\iTunesCDB"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\iTunesControl"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\iTunesPrefs"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Resources\DDNAToolKit\screen-appletv-hello-9.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Resources\DDNAToolKit\screen-appletv-recovery-9.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Resources\DDNAToolKit\screen-appletv-recovery-atv5-9.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Resources\DDNAToolKit\screen-appletv-springboard-9.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\pdf-footer-icon-im-signed.jpg"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\pdf-footer-icon-im-signed.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\pdf-footer-icon-im-unsigned.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\screen-recovery-3to2-30pin.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\screen-recovery-3to2-lightning.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\screen-recovery-4to3-30pin.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\screen-recovery-4to3-lightning.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\screen-recovery-71to40-lightning.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\screen-recovery-812to375-lightning.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\screen-recovery-appletv-atv5.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\screen-recovery-appletv.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\screen-restore-3to2.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\screen-restore-4to3.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\screen-restore-71to40.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\screen-restore-812to375.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\SketchyiPad.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\SketchyiPhone.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\UniCNS-UCS2-H"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -5307,10 +5299,13 @@ Source: "{app}\manifests\com.apple.xsan.preferences.plist"; DestDir: "{app}\mani
 Source: "{app}\manifests\com.barebones.bbedit.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.brave.Browser.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.citrix.receiver.nomas.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\manifests\com.cloudflare.warp.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.crowdstrike.falcon.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\manifests\com.docker.config.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.fxfactory.FxFactory.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.github.ants-framework.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.github.macadmins.Nudge.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\manifests\com.github.macadmins.SupportCompanion.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.github.mpanighetti.install-or-defer.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.github.salopensource.sal.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.google.Chrome.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -5318,13 +5313,18 @@ Source: "{app}\manifests\com.google.drivefs.settings.plist"; DestDir: "{app}\man
 Source: "{app}\manifests\com.google.Keystone.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.google.santa.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.grahamgilbert.crypt.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\manifests\com.grammarly.ProjectLlama.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.hjuutilainen.MunkiAdmin.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.jamf.connect.shares.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.jamf.connect.sync.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.jamf.connect.verify.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\manifests\com.jamf.setupmanager.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.jamf.trust.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.jelockwood.pinpoint.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\manifests\com.jigsaw24.Elevate24.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\manifests\com.jigsaw24.Elevate24SecurityExtension.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.keepersecurity.passwordmanager.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\manifests\com.macjutsu.super.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.macpaw.site.theunarchiver.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.mcneel.rhinoceros.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.microsoft.autoupdate.fba.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -5344,9 +5344,11 @@ Source: "{app}\manifests\com.microsoft.SkypeForBusiness.plist"; DestDir: "{app}\
 Source: "{app}\manifests\com.microsoft.wdav.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.microsoft.Word.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.papercut.printdeploy.client.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\manifests\com.parallels.desktop.managedprefs.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.pratikkumar.airserver-mac.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.secondsonconsulting.baseline.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.secondsonconsulting.renew.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\manifests\com.sentinelone.registration-token.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.skype.skype.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.sqwarq.DetectX-Swift.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.ThomsonResearchSoft.EndNote.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -5356,6 +5358,7 @@ Source: "{app}\manifests\com.twingate.macos.plist"; DestDir: "{app}\manifests"; 
 Source: "{app}\manifests\com.twocanoes.xcreds.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.unity3d.UnityEditor5.x.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.vpntracker.365mac.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\manifests\com.zscaler.installparams.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\Configuration.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\corp.sap.privileges.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\cx.c3.theunarchiver.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -5450,6 +5453,7 @@ Source: "{app}\Manifest Support\com.apple.loginitems.managed manifest-support.pl
 Source: "{app}\Manifest Support\com.apple.loginwindow manifest-support.plist"; DestDir: "{app}\Manifest Support"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.apple.lom manifest-support.plist"; DestDir: "{app}\Manifest Support"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.apple.mail.managed manifest-support.plist"; DestDir: "{app}\Manifest Support"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Manifest Support\com.apple.ManagedClient.preferences manifest-support.plist"; DestDir: "{app}\Manifest Support"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.apple.MCX manifest-support.plist"; DestDir: "{app}\Manifest Support"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.apple.MCX.FileVault2 manifest-support.plist"; DestDir: "{app}\Manifest Support"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.apple.MCX.TimeMachine manifest-support.plist"; DestDir: "{app}\Manifest Support"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -5848,7 +5852,7 @@ IDP_503=Service temporaily unavailable (503)
 AppName=iMazing
 CompanyName=DigiDNA
 DependenciesDir=iMazing Dependencies
-AppVersion=3.0.6.1
+AppVersion=3.1.0.0
 MSI31Title=Windows Installer 3.1
 dotnet4Title=Microsoft .NET Framework 4.6.2
 UninstallAppleComponentsTitle=iMazing Apple Drivers Checker

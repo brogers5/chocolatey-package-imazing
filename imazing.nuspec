@@ -3,14 +3,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>imazing</id>
-    <version>3.0.6.1</version>
-    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-imazing/tree/v3.0.6.1</packageSourceUrl>
+    <version>3.1.0</version>
+    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-imazing/tree/v3.1.0</packageSourceUrl>
     <owners>MANICX100, sublym0nal</owners>
     <title>iMazing</title>
     <authors>DigiDNA</authors>
     <projectUrl>https://imazing.com/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-imazing@2bb0b9fc109139490c60bef0777617b7c1cd418d/imazing3.svg</iconUrl>
-    <copyright>© DigiDNA SARL, 2008-2024. All rights reserved.</copyright>
+    <copyright>© DigiDNA SARL, 2008-2025. All rights reserved.</copyright>
     <licenseUrl>https://imazing.com/licensing-policy</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Project is closed-source</projectSourceUrl>-->
@@ -55,8 +55,24 @@ Gain powerful backup, data extraction, media, and file transfer capabilities, an
 * **Supervision** - Make the most of your business iOS devices with supervision: easily put iPad in Kiosk Mode, unlock advanced security options or manage restrictions. Works with or without an MDM.
 * **Configurator** - Discover powerful tools designed to help sys admins configure and provision fleets of Apple mobile devices, including iPhone, iPad, iPod touch and Apple TV.
 * **Profile Editor** - Create, Edit, and Sign Apple Configuration Profiles.
+
+## Package Parameters
+
+* `/NoShim` - Opt out of creating a shim, and removes any existing shim.
+
+## Package Notes
+
+The installer executed by this package was built using Inno Setup. For advanced setup scenarios, refer to [Inno Setup's command-line interface documentation](https://jrsoftware.org/ishelp/index.php?topic=setupcmdline) and [iMazing's Guide for Enterprise Environments](https://imazing.com/documentation/Install-Uninstall-iMazing-in-Enterprise-Environments.pdf). Any desired arguments can be appended to (or optionally overriding with the `--override-arguments` switch) the package's default install arguments with the `--install-arguments` option.
+
+Installer-specific details (e.g. Setup configuration and supported Languages, Components, and Tasks) can be found in the Inno Setup Script file, which has been extracted using [Inno Setup Unpacker](https://community.chocolatey.org/packages/innounp) and [reuploaded for quick reference](https://github.com/brogers5/chocolatey-package-imazing/tree/v3.1.0/install_script.iss).
+
+For future upgrade operations, consider opting into Chocolatey's `useRememberedArgumentsForUpgrades` feature to avoid having to pass the same arguments with each upgrade:
+
+```shell
+choco feature enable --name="'useRememberedArgumentsForUpgrades'"
+```
 ]]></description>
-    <releaseNotes>https://downloads.imazing.com/windows/iMazing/3.0.6.1/release-notes.html</releaseNotes>
+    <releaseNotes>https://downloads.imazing.com/windows/iMazing/3.1.0/release-notes.html</releaseNotes>
     <dependencies>
       <dependency id="dotnetfx" version="4.6.2.0" />
       <!--Version should be 3.1.0.1, but no such version has been published to the Community Repository-->
