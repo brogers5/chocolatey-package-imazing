@@ -1,5 +1,5 @@
 [CmdletBinding()]
-param($IncludeStream)
+param([switch] $Force, $IncludeStream)
 Import-Module au
 
 function Get-InstallScript($FilePath) {
@@ -92,4 +92,4 @@ function global:au_GetLatest {
     return @{ Streams = $streams }
 }
 
-Update-Package -ChecksumFor None -IncludeStream $IncludeStream -NoReadme
+Update-Package -ChecksumFor None -IncludeStream $IncludeStream -NoReadme -Force:$Force
