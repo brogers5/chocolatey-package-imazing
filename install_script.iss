@@ -2,9 +2,9 @@
 
 [Setup]
 AppName=iMazing
-AppVerName=iMazing 3.1.0.1
+AppVerName=iMazing 3.1.1.0
 AppId=iMazing
-AppVersion=3.1.0.1
+AppVersion=3.1.1.0
 AppPublisher=DigiDNA
 AppPublisherURL=https://imazing.com
 AppSupportURL=https://imazing.com/support
@@ -13,7 +13,7 @@ DefaultDirName={pf}\DigiDNA\iMazing
 DefaultGroupName=iMazing
 UninstallDisplayIcon={app}\iMazing.exe
 UninstallDisplayName=iMazing
-OutputBaseFilename=tmpenmfpz.tmp
+OutputBaseFilename=tmpiv1m22.tmp
 Compression=lzma
 ArchitecturesInstallIn64BitMode=x64
 DisableDirPage=auto
@@ -84,7 +84,6 @@ Source: "{app}\DDNAInterop,1.dll"; DestDir: "{app}"; DestName: "DDNAInterop.dll"
 Source: "{app}\DDNAToolKit,1.dll"; DestDir: "{app}"; DestName: "DDNAToolKit.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\DDNAToolKitNET,1.dll"; DestDir: "{app}"; DestName: "DDNAToolKitNET.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\DevKit,1.dll"; DestDir: "{app}"; DestName: "DevKit.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\e_sqlite3,1.dll"; DestDir: "{app}"; DestName: "e_sqlite3.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\FunctionalSharp,1.dll"; DestDir: "{app}"; DestName: "FunctionalSharp.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\gpod,1.dll"; DestDir: "{app}"; DestName: "gpod.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\HEIC-NET,1.dll"; DestDir: "{app}"; DestName: "HEIC-NET.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -112,10 +111,8 @@ Source: "{app}\libSkiaSharp,1.dylib"; DestDir: "{app}"; DestName: "libSkiaSharp.
 Source: "{app}\LICENSE,1"; DestDir: "{app}"; DestName: "LICENSE"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\LottieSharp,1.dll"; DestDir: "{app}"; DestName: "LottieSharp.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Manifest-Operations-Shared,1.dll"; DestDir: "{app}"; DestName: "Manifest-Operations-Shared.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Microsoft.AppCenter.Analytics,1.dll"; DestDir: "{app}"; DestName: "Microsoft.AppCenter.Analytics.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Microsoft.AppCenter.Crashes,1.dll"; DestDir: "{app}"; DestName: "Microsoft.AppCenter.Crashes.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Microsoft.AppCenter,1.dll"; DestDir: "{app}"; DestName: "Microsoft.AppCenter.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Microsoft.Bcl.AsyncInterfaces,1.dll"; DestDir: "{app}"; DestName: "Microsoft.Bcl.AsyncInterfaces.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Microsoft.Bcl.AsyncInterfaces,1.xml"; DestDir: "{app}"; DestName: "Microsoft.Bcl.AsyncInterfaces.xml"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Microsoft.Web.WebView2.Core,1.dll"; DestDir: "{app}"; DestName: "Microsoft.Web.WebView2.Core.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Microsoft.Web.WebView2.WinForms,1.dll"; DestDir: "{app}"; DestName: "Microsoft.Web.WebView2.WinForms.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Microsoft.Web.WebView2.Wpf,1.dll"; DestDir: "{app}"; DestName: "Microsoft.Web.WebView2.Wpf.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -134,21 +131,21 @@ Source: "{app}\PdfSharp.Charting,1.dll"; DestDir: "{app}"; DestName: "PdfSharp.C
 Source: "{app}\PdfSharp,1.dll"; DestDir: "{app}"; DestName: "PdfSharp.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\plist-cil,1.dll"; DestDir: "{app}"; DestName: "plist-cil.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\README,1.txt"; DestDir: "{app}"; DestName: "README.txt"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Sentry,1.dll"; DestDir: "{app}"; DestName: "Sentry.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\SkiaSharp,1.dll"; DestDir: "{app}"; DestName: "SkiaSharp.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\SkiaSharp.SceneGraph,1.dll"; DestDir: "{app}"; DestName: "SkiaSharp.SceneGraph.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\SkiaSharp.Skottie,1.dll"; DestDir: "{app}"; DestName: "SkiaSharp.Skottie.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\SkiaSharp.Views.Desktop.Common,1.dll"; DestDir: "{app}"; DestName: "SkiaSharp.Views.Desktop.Common.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\SkiaSharp.Views.WPF,1.dll"; DestDir: "{app}"; DestName: "SkiaSharp.Views.WPF.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\SQLitePCLRaw.batteries_v2,1.dll"; DestDir: "{app}"; DestName: "SQLitePCLRaw.batteries_v2.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\SQLitePCLRaw.core,1.dll"; DestDir: "{app}"; DestName: "SQLitePCLRaw.core.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\SQLitePCLRaw.provider.dynamic_cdecl,1.dll"; DestDir: "{app}"; DestName: "SQLitePCLRaw.provider.dynamic_cdecl.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\StoreLib,1.dll"; DestDir: "{app}"; DestName: "StoreLib.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\swresample-4,1.dll"; DestDir: "{app}"; DestName: "swresample-4.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\swscale-6,1.dll"; DestDir: "{app}"; DestName: "swscale-6.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.AppContext,1.dll"; DestDir: "{app}"; DestName: "System.AppContext.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Buffers,1.dll"; DestDir: "{app}"; DestName: "System.Buffers.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\System.Buffers,1.xml"; DestDir: "{app}"; DestName: "System.Buffers.xml"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Collections.Concurrent,1.dll"; DestDir: "{app}"; DestName: "System.Collections.Concurrent.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Collections,1.dll"; DestDir: "{app}"; DestName: "System.Collections.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\System.Collections.Immutable,1.dll"; DestDir: "{app}"; DestName: "System.Collections.Immutable.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Collections.NonGeneric,1.dll"; DestDir: "{app}"; DestName: "System.Collections.NonGeneric.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Collections.Specialized,1.dll"; DestDir: "{app}"; DestName: "System.Collections.Specialized.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.ComponentModel,1.dll"; DestDir: "{app}"; DestName: "System.ComponentModel.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -188,6 +185,7 @@ Source: "{app}\System.Linq.Expressions,1.dll"; DestDir: "{app}"; DestName: "Syst
 Source: "{app}\System.Linq.Parallel,1.dll"; DestDir: "{app}"; DestName: "System.Linq.Parallel.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Linq.Queryable,1.dll"; DestDir: "{app}"; DestName: "System.Linq.Queryable.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Memory,1.dll"; DestDir: "{app}"; DestName: "System.Memory.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\System.Memory,1.xml"; DestDir: "{app}"; DestName: "System.Memory.xml"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Net.Http,1.dll"; DestDir: "{app}"; DestName: "System.Net.Http.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Net.NameResolution,1.dll"; DestDir: "{app}"; DestName: "System.Net.NameResolution.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Net.NetworkInformation,1.dll"; DestDir: "{app}"; DestName: "System.Net.NetworkInformation.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -200,14 +198,17 @@ Source: "{app}\System.Net.WebHeaderCollection,1.dll"; DestDir: "{app}"; DestName
 Source: "{app}\System.Net.WebSockets.Client,1.dll"; DestDir: "{app}"; DestName: "System.Net.WebSockets.Client.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Net.WebSockets,1.dll"; DestDir: "{app}"; DestName: "System.Net.WebSockets.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Numerics.Vectors,1.dll"; DestDir: "{app}"; DestName: "System.Numerics.Vectors.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\System.Numerics.Vectors,1.xml"; DestDir: "{app}"; DestName: "System.Numerics.Vectors.xml"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.ObjectModel,1.dll"; DestDir: "{app}"; DestName: "System.ObjectModel.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Reflection,1.dll"; DestDir: "{app}"; DestName: "System.Reflection.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Reflection.Extensions,1.dll"; DestDir: "{app}"; DestName: "System.Reflection.Extensions.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\System.Reflection.Metadata,1.dll"; DestDir: "{app}"; DestName: "System.Reflection.Metadata.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Reflection.Primitives,1.dll"; DestDir: "{app}"; DestName: "System.Reflection.Primitives.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Resources.Reader,1.dll"; DestDir: "{app}"; DestName: "System.Resources.Reader.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Resources.ResourceManager,1.dll"; DestDir: "{app}"; DestName: "System.Resources.ResourceManager.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Resources.Writer,1.dll"; DestDir: "{app}"; DestName: "System.Resources.Writer.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Runtime.CompilerServices.Unsafe,1.dll"; DestDir: "{app}"; DestName: "System.Runtime.CompilerServices.Unsafe.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\System.Runtime.CompilerServices.Unsafe,1.xml"; DestDir: "{app}"; DestName: "System.Runtime.CompilerServices.Unsafe.xml"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Runtime.CompilerServices.VisualC,1.dll"; DestDir: "{app}"; DestName: "System.Runtime.CompilerServices.VisualC.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Runtime,1.dll"; DestDir: "{app}"; DestName: "System.Runtime.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Runtime.Extensions,1.dll"; DestDir: "{app}"; DestName: "System.Runtime.Extensions.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -231,17 +232,21 @@ Source: "{app}\System.Security.SecureString,1.dll"; DestDir: "{app}"; DestName: 
 Source: "{app}\System.Text.Encoding,1.dll"; DestDir: "{app}"; DestName: "System.Text.Encoding.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Text.Encoding.Extensions,1.dll"; DestDir: "{app}"; DestName: "System.Text.Encoding.Extensions.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Text.Encodings.Web,1.dll"; DestDir: "{app}"; DestName: "System.Text.Encodings.Web.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\System.Text.Encodings.Web,1.xml"; DestDir: "{app}"; DestName: "System.Text.Encodings.Web.xml"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Text.Json,1.dll"; DestDir: "{app}"; DestName: "System.Text.Json.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\System.Text.Json,1.xml"; DestDir: "{app}"; DestName: "System.Text.Json.xml"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Text.RegularExpressions,1.dll"; DestDir: "{app}"; DestName: "System.Text.RegularExpressions.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Threading,1.dll"; DestDir: "{app}"; DestName: "System.Threading.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Threading.Overlapped,1.dll"; DestDir: "{app}"; DestName: "System.Threading.Overlapped.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Threading.Tasks,1.dll"; DestDir: "{app}"; DestName: "System.Threading.Tasks.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Threading.Tasks.Extensions,1.dll"; DestDir: "{app}"; DestName: "System.Threading.Tasks.Extensions.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\System.Threading.Tasks.Extensions,1.xml"; DestDir: "{app}"; DestName: "System.Threading.Tasks.Extensions.xml"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Threading.Tasks.Parallel,1.dll"; DestDir: "{app}"; DestName: "System.Threading.Tasks.Parallel.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Threading.Thread,1.dll"; DestDir: "{app}"; DestName: "System.Threading.Thread.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Threading.ThreadPool,1.dll"; DestDir: "{app}"; DestName: "System.Threading.ThreadPool.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Threading.Timer,1.dll"; DestDir: "{app}"; DestName: "System.Threading.Timer.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.ValueTuple,1.dll"; DestDir: "{app}"; DestName: "System.ValueTuple.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\System.ValueTuple,1.xml"; DestDir: "{app}"; DestName: "System.ValueTuple.xml"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Xml.ReaderWriter,1.dll"; DestDir: "{app}"; DestName: "System.Xml.ReaderWriter.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Xml.XDocument,1.dll"; DestDir: "{app}"; DestName: "System.Xml.XDocument.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Xml.XmlDocument,1.dll"; DestDir: "{app}"; DestName: "System.Xml.XmlDocument.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -260,29 +265,29 @@ Source: "{app}\WebView2Loader,1.dll"; DestDir: "{app}"; DestName: "WebView2Loade
 Source: "{app}\YamlDotNet,1.dll"; DestDir: "{app}"; DestName: "YamlDotNet.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\zlib,1.dll"; DestDir: "{app}"; DestName: "zlib.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\arm64\libSkiaSharp,1.dll"; DestDir: "{app}\arm64"; DestName: "libSkiaSharp.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.AppStore,1.png"; DestDir: "{app}\Images"; DestName: "com.apple.AppStore.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.Bridge,1.png"; DestDir: "{app}\Images"; DestName: "com.apple.Bridge.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.camera,1.png"; DestDir: "{app}\Images"; DestName: "com.apple.camera.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.findmy,1.png"; DestDir: "{app}\Images"; DestName: "com.apple.findmy.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.Health,1.png"; DestDir: "{app}\Images"; DestName: "com.apple.Health.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.iBooks,1.png"; DestDir: "{app}\Images"; DestName: "com.apple.iBooks.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.MobileAddressBook,1.png"; DestDir: "{app}\Images"; DestName: "com.apple.MobileAddressBook.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.mobileme.fmip1,1.png"; DestDir: "{app}\Images"; DestName: "com.apple.mobileme.fmip1.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.mobilephone,1.png"; DestDir: "{app}\Images"; DestName: "com.apple.mobilephone.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.mobilesafari,1.png"; DestDir: "{app}\Images"; DestName: "com.apple.mobilesafari.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.mobileslideshow,1.png"; DestDir: "{app}\Images"; DestName: "com.apple.mobileslideshow.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.MobileSMS,1.png"; DestDir: "{app}\Images"; DestName: "com.apple.MobileSMS.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.mobiletimer,1.png"; DestDir: "{app}\Images"; DestName: "com.apple.mobiletimer.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.Music,1.png"; DestDir: "{app}\Images"; DestName: "com.apple.Music.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.Passbook,1.png"; DestDir: "{app}\Images"; DestName: "com.apple.Passbook.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.Preferences,1.png"; DestDir: "{app}\Images"; DestName: "com.apple.Preferences.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\domainIconDefault,1.png"; DestDir: "{app}\Images"; DestName: "domainIconDefault.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\domainIconunfamiliar,1.png"; DestDir: "{app}\Images"; DestName: "domainIconunfamiliar.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\iconPlaceholder,1.png"; DestDir: "{app}\Images"; DestName: "iconPlaceholder.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\toolbarDefaults@2x,1.png"; DestDir: "{app}\Images"; DestName: "toolbarDefaults@2x.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\toolbarGeneral@2x,1.png"; DestDir: "{app}\Images"; DestName: "toolbarGeneral@2x.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\toolbarManifests@2x,1.png"; DestDir: "{app}\Images"; DestName: "toolbarManifests@2x.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\updates@2x,1.png"; DestDir: "{app}\Images"; DestName: "updates@2x.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.AppStore,1.png"; DestDir: "{app}\images"; DestName: "com.apple.AppStore.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.Bridge,1.png"; DestDir: "{app}\images"; DestName: "com.apple.Bridge.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.camera,1.png"; DestDir: "{app}\images"; DestName: "com.apple.camera.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.findmy,1.png"; DestDir: "{app}\images"; DestName: "com.apple.findmy.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.Health,1.png"; DestDir: "{app}\images"; DestName: "com.apple.Health.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.iBooks,1.png"; DestDir: "{app}\images"; DestName: "com.apple.iBooks.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.MobileAddressBook,1.png"; DestDir: "{app}\images"; DestName: "com.apple.MobileAddressBook.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.mobileme.fmip1,1.png"; DestDir: "{app}\images"; DestName: "com.apple.mobileme.fmip1.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.mobilephone,1.png"; DestDir: "{app}\images"; DestName: "com.apple.mobilephone.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.mobilesafari,1.png"; DestDir: "{app}\images"; DestName: "com.apple.mobilesafari.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.mobileslideshow,1.png"; DestDir: "{app}\images"; DestName: "com.apple.mobileslideshow.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.MobileSMS,1.png"; DestDir: "{app}\images"; DestName: "com.apple.MobileSMS.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.mobiletimer,1.png"; DestDir: "{app}\images"; DestName: "com.apple.mobiletimer.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.Music,1.png"; DestDir: "{app}\images"; DestName: "com.apple.Music.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.Passbook,1.png"; DestDir: "{app}\images"; DestName: "com.apple.Passbook.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.Preferences,1.png"; DestDir: "{app}\images"; DestName: "com.apple.Preferences.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\domainIconDefault,1.png"; DestDir: "{app}\images"; DestName: "domainIconDefault.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\domainIconunfamiliar,1.png"; DestDir: "{app}\images"; DestName: "domainIconunfamiliar.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\iconPlaceholder,1.png"; DestDir: "{app}\images"; DestName: "iconPlaceholder.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\toolbarDefaults@2x,1.png"; DestDir: "{app}\images"; DestName: "toolbarDefaults@2x.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\toolbarGeneral@2x,1.png"; DestDir: "{app}\images"; DestName: "toolbarGeneral@2x.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\toolbarManifests@2x,1.png"; DestDir: "{app}\images"; DestName: "toolbarManifests@2x.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\updates@2x,1.png"; DestDir: "{app}\images"; DestName: "updates@2x.png"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\nl\PdfiumViewer.resources,1.dll"; DestDir: "{app}\nl"; DestName: "PdfiumViewer.resources.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\x64\libSkiaSharp,1.dll"; DestDir: "{app}\x64"; DestName: "libSkiaSharp.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\x64\pdfium,1.dll"; DestDir: "{app}\x64"; DestName: "pdfium.dll"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -347,7 +352,6 @@ Source: "{app}\DDNAInterop,2.dll"; DestDir: "{app}"; DestName: "DDNAInterop.dll"
 Source: "{app}\DDNAToolKit,2.dll"; DestDir: "{app}"; DestName: "DDNAToolKit.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\DDNAToolKitNET,2.dll"; DestDir: "{app}"; DestName: "DDNAToolKitNET.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\DevKit,2.dll"; DestDir: "{app}"; DestName: "DevKit.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\e_sqlite3,2.dll"; DestDir: "{app}"; DestName: "e_sqlite3.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\FunctionalSharp,2.dll"; DestDir: "{app}"; DestName: "FunctionalSharp.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\gpod,2.dll"; DestDir: "{app}"; DestName: "gpod.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\HEIC-NET,2.dll"; DestDir: "{app}"; DestName: "HEIC-NET.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -375,10 +379,8 @@ Source: "{app}\libSkiaSharp,2.dylib"; DestDir: "{app}"; DestName: "libSkiaSharp.
 Source: "{app}\LICENSE,2"; DestDir: "{app}"; DestName: "LICENSE"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\LottieSharp,2.dll"; DestDir: "{app}"; DestName: "LottieSharp.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Manifest-Operations-Shared,2.dll"; DestDir: "{app}"; DestName: "Manifest-Operations-Shared.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Microsoft.AppCenter.Analytics,2.dll"; DestDir: "{app}"; DestName: "Microsoft.AppCenter.Analytics.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Microsoft.AppCenter.Crashes,2.dll"; DestDir: "{app}"; DestName: "Microsoft.AppCenter.Crashes.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Microsoft.AppCenter,2.dll"; DestDir: "{app}"; DestName: "Microsoft.AppCenter.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Microsoft.Bcl.AsyncInterfaces,2.dll"; DestDir: "{app}"; DestName: "Microsoft.Bcl.AsyncInterfaces.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Microsoft.Bcl.AsyncInterfaces,2.xml"; DestDir: "{app}"; DestName: "Microsoft.Bcl.AsyncInterfaces.xml"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Microsoft.Web.WebView2.Core,2.dll"; DestDir: "{app}"; DestName: "Microsoft.Web.WebView2.Core.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Microsoft.Web.WebView2.WinForms,2.dll"; DestDir: "{app}"; DestName: "Microsoft.Web.WebView2.WinForms.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Microsoft.Web.WebView2.Wpf,2.dll"; DestDir: "{app}"; DestName: "Microsoft.Web.WebView2.Wpf.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -397,21 +399,21 @@ Source: "{app}\PdfSharp.Charting,2.dll"; DestDir: "{app}"; DestName: "PdfSharp.C
 Source: "{app}\PdfSharp,2.dll"; DestDir: "{app}"; DestName: "PdfSharp.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\plist-cil,2.dll"; DestDir: "{app}"; DestName: "plist-cil.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\README,2.txt"; DestDir: "{app}"; DestName: "README.txt"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Sentry,2.dll"; DestDir: "{app}"; DestName: "Sentry.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\SkiaSharp,2.dll"; DestDir: "{app}"; DestName: "SkiaSharp.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\SkiaSharp.SceneGraph,2.dll"; DestDir: "{app}"; DestName: "SkiaSharp.SceneGraph.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\SkiaSharp.Skottie,2.dll"; DestDir: "{app}"; DestName: "SkiaSharp.Skottie.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\SkiaSharp.Views.Desktop.Common,2.dll"; DestDir: "{app}"; DestName: "SkiaSharp.Views.Desktop.Common.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\SkiaSharp.Views.WPF,2.dll"; DestDir: "{app}"; DestName: "SkiaSharp.Views.WPF.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\SQLitePCLRaw.batteries_v2,2.dll"; DestDir: "{app}"; DestName: "SQLitePCLRaw.batteries_v2.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\SQLitePCLRaw.core,2.dll"; DestDir: "{app}"; DestName: "SQLitePCLRaw.core.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\SQLitePCLRaw.provider.dynamic_cdecl,2.dll"; DestDir: "{app}"; DestName: "SQLitePCLRaw.provider.dynamic_cdecl.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\StoreLib,2.dll"; DestDir: "{app}"; DestName: "StoreLib.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\swresample-4,2.dll"; DestDir: "{app}"; DestName: "swresample-4.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\swscale-6,2.dll"; DestDir: "{app}"; DestName: "swscale-6.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.AppContext,2.dll"; DestDir: "{app}"; DestName: "System.AppContext.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Buffers,2.dll"; DestDir: "{app}"; DestName: "System.Buffers.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\System.Buffers,2.xml"; DestDir: "{app}"; DestName: "System.Buffers.xml"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Collections.Concurrent,2.dll"; DestDir: "{app}"; DestName: "System.Collections.Concurrent.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Collections,2.dll"; DestDir: "{app}"; DestName: "System.Collections.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\System.Collections.Immutable,2.dll"; DestDir: "{app}"; DestName: "System.Collections.Immutable.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Collections.NonGeneric,2.dll"; DestDir: "{app}"; DestName: "System.Collections.NonGeneric.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Collections.Specialized,2.dll"; DestDir: "{app}"; DestName: "System.Collections.Specialized.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.ComponentModel,2.dll"; DestDir: "{app}"; DestName: "System.ComponentModel.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -451,6 +453,7 @@ Source: "{app}\System.Linq.Expressions,2.dll"; DestDir: "{app}"; DestName: "Syst
 Source: "{app}\System.Linq.Parallel,2.dll"; DestDir: "{app}"; DestName: "System.Linq.Parallel.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Linq.Queryable,2.dll"; DestDir: "{app}"; DestName: "System.Linq.Queryable.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Memory,2.dll"; DestDir: "{app}"; DestName: "System.Memory.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\System.Memory,2.xml"; DestDir: "{app}"; DestName: "System.Memory.xml"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Net.Http,2.dll"; DestDir: "{app}"; DestName: "System.Net.Http.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Net.NameResolution,2.dll"; DestDir: "{app}"; DestName: "System.Net.NameResolution.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Net.NetworkInformation,2.dll"; DestDir: "{app}"; DestName: "System.Net.NetworkInformation.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -463,14 +466,17 @@ Source: "{app}\System.Net.WebHeaderCollection,2.dll"; DestDir: "{app}"; DestName
 Source: "{app}\System.Net.WebSockets.Client,2.dll"; DestDir: "{app}"; DestName: "System.Net.WebSockets.Client.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Net.WebSockets,2.dll"; DestDir: "{app}"; DestName: "System.Net.WebSockets.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Numerics.Vectors,2.dll"; DestDir: "{app}"; DestName: "System.Numerics.Vectors.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\System.Numerics.Vectors,2.xml"; DestDir: "{app}"; DestName: "System.Numerics.Vectors.xml"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.ObjectModel,2.dll"; DestDir: "{app}"; DestName: "System.ObjectModel.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Reflection,2.dll"; DestDir: "{app}"; DestName: "System.Reflection.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Reflection.Extensions,2.dll"; DestDir: "{app}"; DestName: "System.Reflection.Extensions.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\System.Reflection.Metadata,2.dll"; DestDir: "{app}"; DestName: "System.Reflection.Metadata.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Reflection.Primitives,2.dll"; DestDir: "{app}"; DestName: "System.Reflection.Primitives.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Resources.Reader,2.dll"; DestDir: "{app}"; DestName: "System.Resources.Reader.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Resources.ResourceManager,2.dll"; DestDir: "{app}"; DestName: "System.Resources.ResourceManager.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Resources.Writer,2.dll"; DestDir: "{app}"; DestName: "System.Resources.Writer.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Runtime.CompilerServices.Unsafe,2.dll"; DestDir: "{app}"; DestName: "System.Runtime.CompilerServices.Unsafe.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\System.Runtime.CompilerServices.Unsafe,2.xml"; DestDir: "{app}"; DestName: "System.Runtime.CompilerServices.Unsafe.xml"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Runtime.CompilerServices.VisualC,2.dll"; DestDir: "{app}"; DestName: "System.Runtime.CompilerServices.VisualC.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Runtime,2.dll"; DestDir: "{app}"; DestName: "System.Runtime.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Runtime.Extensions,2.dll"; DestDir: "{app}"; DestName: "System.Runtime.Extensions.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -494,17 +500,21 @@ Source: "{app}\System.Security.SecureString,2.dll"; DestDir: "{app}"; DestName: 
 Source: "{app}\System.Text.Encoding,2.dll"; DestDir: "{app}"; DestName: "System.Text.Encoding.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Text.Encoding.Extensions,2.dll"; DestDir: "{app}"; DestName: "System.Text.Encoding.Extensions.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Text.Encodings.Web,2.dll"; DestDir: "{app}"; DestName: "System.Text.Encodings.Web.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\System.Text.Encodings.Web,2.xml"; DestDir: "{app}"; DestName: "System.Text.Encodings.Web.xml"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Text.Json,2.dll"; DestDir: "{app}"; DestName: "System.Text.Json.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\System.Text.Json,2.xml"; DestDir: "{app}"; DestName: "System.Text.Json.xml"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Text.RegularExpressions,2.dll"; DestDir: "{app}"; DestName: "System.Text.RegularExpressions.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Threading,2.dll"; DestDir: "{app}"; DestName: "System.Threading.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Threading.Overlapped,2.dll"; DestDir: "{app}"; DestName: "System.Threading.Overlapped.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Threading.Tasks,2.dll"; DestDir: "{app}"; DestName: "System.Threading.Tasks.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Threading.Tasks.Extensions,2.dll"; DestDir: "{app}"; DestName: "System.Threading.Tasks.Extensions.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\System.Threading.Tasks.Extensions,2.xml"; DestDir: "{app}"; DestName: "System.Threading.Tasks.Extensions.xml"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Threading.Tasks.Parallel,2.dll"; DestDir: "{app}"; DestName: "System.Threading.Tasks.Parallel.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Threading.Thread,2.dll"; DestDir: "{app}"; DestName: "System.Threading.Thread.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Threading.ThreadPool,2.dll"; DestDir: "{app}"; DestName: "System.Threading.ThreadPool.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Threading.Timer,2.dll"; DestDir: "{app}"; DestName: "System.Threading.Timer.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.ValueTuple,2.dll"; DestDir: "{app}"; DestName: "System.ValueTuple.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\System.ValueTuple,2.xml"; DestDir: "{app}"; DestName: "System.ValueTuple.xml"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Xml.ReaderWriter,2.dll"; DestDir: "{app}"; DestName: "System.Xml.ReaderWriter.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Xml.XDocument,2.dll"; DestDir: "{app}"; DestName: "System.Xml.XDocument.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\System.Xml.XmlDocument,2.dll"; DestDir: "{app}"; DestName: "System.Xml.XmlDocument.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -524,29 +534,29 @@ Source: "{app}\WebView2Loader,2.dll"; DestDir: "{app}"; DestName: "WebView2Loade
 Source: "{app}\YamlDotNet,2.dll"; DestDir: "{app}"; DestName: "YamlDotNet.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\zlib,2.dll"; DestDir: "{app}"; DestName: "zlib.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\arm64\libSkiaSharp,2.dll"; DestDir: "{app}\arm64"; DestName: "libSkiaSharp.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.AppStore,2.png"; DestDir: "{app}\Images"; DestName: "com.apple.AppStore.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.Bridge,2.png"; DestDir: "{app}\Images"; DestName: "com.apple.Bridge.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.camera,2.png"; DestDir: "{app}\Images"; DestName: "com.apple.camera.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.findmy,2.png"; DestDir: "{app}\Images"; DestName: "com.apple.findmy.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.Health,2.png"; DestDir: "{app}\Images"; DestName: "com.apple.Health.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.iBooks,2.png"; DestDir: "{app}\Images"; DestName: "com.apple.iBooks.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.MobileAddressBook,2.png"; DestDir: "{app}\Images"; DestName: "com.apple.MobileAddressBook.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.mobileme.fmip1,2.png"; DestDir: "{app}\Images"; DestName: "com.apple.mobileme.fmip1.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.mobilephone,2.png"; DestDir: "{app}\Images"; DestName: "com.apple.mobilephone.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.mobilesafari,2.png"; DestDir: "{app}\Images"; DestName: "com.apple.mobilesafari.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.mobileslideshow,2.png"; DestDir: "{app}\Images"; DestName: "com.apple.mobileslideshow.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.MobileSMS,2.png"; DestDir: "{app}\Images"; DestName: "com.apple.MobileSMS.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.mobiletimer,2.png"; DestDir: "{app}\Images"; DestName: "com.apple.mobiletimer.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.Music,2.png"; DestDir: "{app}\Images"; DestName: "com.apple.Music.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.Passbook,2.png"; DestDir: "{app}\Images"; DestName: "com.apple.Passbook.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\com.apple.Preferences,2.png"; DestDir: "{app}\Images"; DestName: "com.apple.Preferences.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\domainIconDefault,2.png"; DestDir: "{app}\Images"; DestName: "domainIconDefault.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\domainIconunfamiliar,2.png"; DestDir: "{app}\Images"; DestName: "domainIconunfamiliar.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\iconPlaceholder,2.png"; DestDir: "{app}\Images"; DestName: "iconPlaceholder.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\toolbarDefaults@2x,2.png"; DestDir: "{app}\Images"; DestName: "toolbarDefaults@2x.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\toolbarGeneral@2x,2.png"; DestDir: "{app}\Images"; DestName: "toolbarGeneral@2x.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\toolbarManifests@2x,2.png"; DestDir: "{app}\Images"; DestName: "toolbarManifests@2x.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\Images\updates@2x,2.png"; DestDir: "{app}\Images"; DestName: "updates@2x.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.AppStore,2.png"; DestDir: "{app}\images"; DestName: "com.apple.AppStore.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.Bridge,2.png"; DestDir: "{app}\images"; DestName: "com.apple.Bridge.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.camera,2.png"; DestDir: "{app}\images"; DestName: "com.apple.camera.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.findmy,2.png"; DestDir: "{app}\images"; DestName: "com.apple.findmy.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.Health,2.png"; DestDir: "{app}\images"; DestName: "com.apple.Health.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.iBooks,2.png"; DestDir: "{app}\images"; DestName: "com.apple.iBooks.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.MobileAddressBook,2.png"; DestDir: "{app}\images"; DestName: "com.apple.MobileAddressBook.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.mobileme.fmip1,2.png"; DestDir: "{app}\images"; DestName: "com.apple.mobileme.fmip1.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.mobilephone,2.png"; DestDir: "{app}\images"; DestName: "com.apple.mobilephone.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.mobilesafari,2.png"; DestDir: "{app}\images"; DestName: "com.apple.mobilesafari.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.mobileslideshow,2.png"; DestDir: "{app}\images"; DestName: "com.apple.mobileslideshow.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.MobileSMS,2.png"; DestDir: "{app}\images"; DestName: "com.apple.MobileSMS.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.mobiletimer,2.png"; DestDir: "{app}\images"; DestName: "com.apple.mobiletimer.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.Music,2.png"; DestDir: "{app}\images"; DestName: "com.apple.Music.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.Passbook,2.png"; DestDir: "{app}\images"; DestName: "com.apple.Passbook.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\com.apple.Preferences,2.png"; DestDir: "{app}\images"; DestName: "com.apple.Preferences.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\domainIconDefault,2.png"; DestDir: "{app}\images"; DestName: "domainIconDefault.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\domainIconunfamiliar,2.png"; DestDir: "{app}\images"; DestName: "domainIconunfamiliar.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\iconPlaceholder,2.png"; DestDir: "{app}\images"; DestName: "iconPlaceholder.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\toolbarDefaults@2x,2.png"; DestDir: "{app}\images"; DestName: "toolbarDefaults@2x.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\toolbarGeneral@2x,2.png"; DestDir: "{app}\images"; DestName: "toolbarGeneral@2x.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\toolbarManifests@2x,2.png"; DestDir: "{app}\images"; DestName: "toolbarManifests@2x.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\images\updates@2x,2.png"; DestDir: "{app}\images"; DestName: "updates@2x.png"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\nl\PdfiumViewer.resources,2.dll"; DestDir: "{app}\nl"; DestName: "PdfiumViewer.resources.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\x64\libSkiaSharp,2.dll"; DestDir: "{app}\x64"; DestName: "libSkiaSharp.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\x64\pdfium,2.dll"; DestDir: "{app}\x64"; DestName: "pdfium.dll"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -1038,6 +1048,8 @@ Source: "{app}\Resources\DDNAToolKit\com.apple.apple-tv-4.png"; DestDir: "{app}\
 Source: "{app}\Resources\DDNAToolKit\com.apple.apple-tv-4k-3rd.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.homepod-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.homepod-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.homepod-2nd-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.homepod-2nd-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.homepod-mini-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.homepod-mini-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.homepod-mini-7.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -1363,6 +1375,10 @@ Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-4-clear.png"; DestDir: 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-4.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-9-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-9.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-e-1-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-e-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-e-2-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-e-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-pro-1-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-pro-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-pro-2-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -5240,7 +5256,7 @@ Source: "{app}\manifests\com.apple.profileRemovalPassword.plist"; DestDir: "{app
 Source: "{app}\manifests\com.apple.proxy.http.global.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.apple.python.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.apple.relay.managed.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\manifests\com.apple.Safari.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\manifests\com.apple.safari.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.apple.Safari.SandboxBroker.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.apple.screencapture.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\com.apple.screensaver.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -5380,7 +5396,7 @@ Source: "{app}\manifests\net.glencode.Particulars.Widget.plist"; DestDir: "{app}
 Source: "{app}\manifests\nl.root3.support.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\org.mozilla.firefox.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\org.sveinbjorn.Platypus.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\manifests\org.videolan.VLC.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
+Source: "{app}\manifests\org.videolan.vlc.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\SupportCompanion.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\uk.co.dataJAR.jamJAR.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\manifests\us.zoom.config.plist"; DestDir: "{app}\manifests"; MinVersion: 0.0,6.0; Flags: ignoreversion 
@@ -5588,9 +5604,7 @@ Source: "{app}\Manifest Support\org.videolan.VLC manifest-support.plist"; DestDi
 Source: "{app}\Manifest Support\uk.co.dataJAR.jamJAR manifest-support.plist"; DestDir: "{app}\Manifest Support"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\Manifest Support\us.zoom.config manifest-support.plist"; DestDir: "{app}\Manifest Support"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\ShellExtiMazingCopyHandler.dll"; DestDir: "{app}"; MinVersion: 0.0,6.0; Flags: restartreplace uninsrestartdelete 
-Source: "{app}\runtimes\win-x86\native\e_sqlite3.dll"; DestDir: "{app}\runtimes\win-x86\native"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\runtimes\win-x86\native\WebView2Loader.dll"; DestDir: "{app}\runtimes\win-x86\native"; Check: "not Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
-Source: "{app}\runtimes\win-x64\native\e_sqlite3.dll"; DestDir: "{app}\runtimes\win-x64\native"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 Source: "{app}\runtimes\win-x64\native\WebView2Loader.dll"; DestDir: "{app}\runtimes\win-x64\native"; Check: "Is64BitInstallMode"; MinVersion: 0.0,6.0; Flags: ignoreversion 
 
 [Registry]
@@ -5852,7 +5866,7 @@ IDP_503=Service temporaily unavailable (503)
 AppName=iMazing
 CompanyName=DigiDNA
 DependenciesDir=iMazing Dependencies
-AppVersion=3.1.0.1
+AppVersion=3.1.1.0
 MSI31Title=Windows Installer 3.1
 dotnet4Title=Microsoft .NET Framework 4.6.2
 UninstallAppleComponentsTitle=iMazing Apple Drivers Checker
