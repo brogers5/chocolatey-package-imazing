@@ -2,9 +2,9 @@
 
 [Setup]
 AppName=iMazing
-AppVerName=iMazing 3.1.2.0
+AppVerName=iMazing 3.1.3.0
 AppId=iMazing
-AppVersion=3.1.2.0
+AppVersion=3.1.3.0
 AppPublisher=DigiDNA
 AppPublisherURL=https://imazing.com
 AppSupportURL=https://imazing.com/support
@@ -13,7 +13,7 @@ DefaultDirName={pf}\DigiDNA\iMazing
 DefaultGroupName=iMazing
 UninstallDisplayIcon={app}\iMazing.exe
 UninstallDisplayName=iMazing
-OutputBaseFilename=tmpedt3la.tmp
+OutputBaseFilename=tmp0bplqu.tmp
 Compression=lzma
 ArchitecturesInstallIn64BitMode=x64 
 DisableDirPage=auto
@@ -1660,6 +1660,7 @@ Source: "{app}\Resources\DDNAToolKit\screen-restore-71to40.png"; DestDir: "{app}
 Source: "{app}\Resources\DDNAToolKit\screen-restore-812to375.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\SketchyiPad.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\SketchyiPhone.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\timezones.txt"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\UniCNS-UCS2-H"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\UniGB-UCS2-H"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\UniKS-UCS2-H"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -5324,6 +5325,7 @@ Source: "{app}\manifests\com.apple.dnsProxy.managed.plist"; DestDir: "{app}\mani
 Source: "{app}\manifests\com.apple.dnsSettings.managed.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.apple.dock.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.apple.domains.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\com.apple.dt.Xcode.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.apple.eas.account.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.apple.education.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.apple.Enterprise-Connect.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
@@ -5358,6 +5360,7 @@ Source: "{app}\manifests\com.apple.loginitems.managed.plist"; DestDir: "{app}\ma
 Source: "{app}\manifests\com.apple.loginwindow.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.apple.lom.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.apple.mail.managed.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\com.apple.ManagedClient.preferences.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.apple.MCX.FileVault2.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.apple.MCX.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.apple.MCX.TimeMachine.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
@@ -5440,6 +5443,7 @@ Source: "{app}\manifests\com.brave.Browser.plist"; DestDir: "{app}\manifests"; F
 Source: "{app}\manifests\com.citrix.receiver.nomas.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.cloudflare.warp.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.crowdstrike.falcon.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\com.dare.zappl.preferences.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.docker.config.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.fxfactory.FxFactory.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.github.ants-framework.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
@@ -5482,6 +5486,9 @@ Source: "{app}\manifests\com.microsoft.rdc.macos.plist"; DestDir: "{app}\manifes
 Source: "{app}\manifests\com.microsoft.SkypeForBusiness.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.microsoft.wdav.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.microsoft.Word.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\com.northpolesec.santa.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\com.okta.mobile.auth-service-extension.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\com.okta.mobile.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.papercut.printdeploy.client.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.parallels.desktop.managedprefs.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.pratikkumar.airserver-mac.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
@@ -5989,7 +5996,7 @@ IDP_503=Service temporaily unavailable (503)
 AppName=iMazing
 CompanyName=DigiDNA
 DependenciesDir=iMazing Dependencies
-AppVersion=3.1.2.0
+AppVersion=3.1.3.0
 MSI31Title=Windows Installer 3.1
 dotnet4Title=Microsoft .NET Framework 4.6.2
 UninstallAppleComponentsTitle=iMazing Apple Drivers Checker
