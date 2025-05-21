@@ -39,4 +39,4 @@ Gain powerful backup, data extraction, media, and file transfer capabilities, an
 
 * `/NoShim` - Opt out of creating a shim, and removes any existing shim.
 
-## [Package Notes](https://github.com/brogers5/chocolatey-package-imazing/blob/v3.1.3/PACKAGE-NOTES.md)
+## [Package Notes](https://github.com/brogers5/chocolatey-package-imazing/blob/v3.1.4/PACKAGE-NOTES.md)

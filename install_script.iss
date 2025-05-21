@@ -2,9 +2,9 @@
 
 [Setup]
 AppName=iMazing
-AppVerName=iMazing 3.1.3.0
+AppVerName=iMazing 3.1.4.0
 AppId=iMazing
-AppVersion=3.1.3.0
+AppVersion=3.1.4.0
 AppPublisher=DigiDNA
 AppPublisherURL=https://imazing.com
 AppSupportURL=https://imazing.com/support
@@ -13,7 +13,7 @@ DefaultDirName={pf}\DigiDNA\iMazing
 DefaultGroupName=iMazing
 UninstallDisplayIcon={app}\iMazing.exe
 UninstallDisplayName=iMazing
-OutputBaseFilename=tmp0bplqu.tmp
+OutputBaseFilename=tmpzpe441.tmp
 Compression=lzma
 ArchitecturesInstallIn64BitMode=x64 
 DisableDirPage=auto
@@ -585,7 +585,6 @@ Source: "{app}\Resources\BrowserPicturesIcon.ico"; DestDir: "{app}\Resources"; F
 Source: "{app}\Resources\BrowserRootIcon.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\CallStatusOutgoing.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\Clear.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
-Source: "{app}\Resources\CloudDownloadTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\CloudFillTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\CloudTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\com.adobe.Adobe-Reader.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
@@ -649,6 +648,16 @@ Source: "{app}\Resources\com.readdle.ReaddleDocsIPad.png"; DestDir: "{app}\Resou
 Source: "{app}\Resources\com.ulyssesapp.ios.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\Confettis.json"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\ConfigurationProfile.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\Config_Accessibility_Stroke_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\Config_Actions_Stroke_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\Config_AppRestrictions_Stroke_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\Config_Apps_Stroke_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\Config_Blueprint_Stroke_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\Config_Files_Stroke_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\Config_MDMServer_Stroke_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\Config_Profiles_Stroke_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\Config_Setup_Stroke_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\Config_Supervision_Stroke_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\ConnectADeviceUSB_Animation.json"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\ConnectDevice.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\ConnectDeviceUSB-Dark.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
@@ -679,7 +688,6 @@ Source: "{app}\Resources\Dataset-Safari.ico"; DestDir: "{app}\Resources"; Flags:
 Source: "{app}\Resources\Dataset-Storage.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\defaultAttachmentIcon.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\DefaultMoviethumbnail.jpg"; DestDir: "{app}\Resources"; Flags: ignoreversion 
-Source: "{app}\Resources\DeleteTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\DesktopComputerTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\DownloadTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\DRMTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
@@ -730,7 +738,6 @@ Source: "{app}\Resources\MainIconFree.ico"; DestDir: "{app}\Resources"; Flags: i
 Source: "{app}\Resources\MainIconOptimized.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\MainIconPrivate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\MainIconSafe.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
-Source: "{app}\Resources\ManageAppsTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\MapAttachment.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\MediaKindAudioBook.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\MediaKindMovie.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
@@ -758,7 +765,6 @@ Source: "{app}\Resources\NSCaution.ico"; DestDir: "{app}\Resources"; Flags: igno
 Source: "{app}\Resources\OptionBackupLocationTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\OptionsButtonIcon.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\org.videolan.vlc-ios.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
-Source: "{app}\Resources\OrganizationTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PauseButtonTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PausedTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PauseFillTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
@@ -5996,7 +6002,7 @@ IDP_503=Service temporaily unavailable (503)
 AppName=iMazing
 CompanyName=DigiDNA
 DependenciesDir=iMazing Dependencies
-AppVersion=3.1.3.0
+AppVersion=3.1.4.0
 MSI31Title=Windows Installer 3.1
 dotnet4Title=Microsoft .NET Framework 4.6.2
 UninstallAppleComponentsTitle=iMazing Apple Drivers Checker
