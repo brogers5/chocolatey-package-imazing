@@ -2,9 +2,9 @@
 
 [Setup]
 AppName=iMazing
-AppVerName=iMazing 3.1.4.0
+AppVerName=iMazing 3.3.0.0
 AppId=iMazing
-AppVersion=3.1.4.0
+AppVersion=3.3.0.0
 AppPublisher=DigiDNA
 AppPublisherURL=https://imazing.com
 AppSupportURL=https://imazing.com/support
@@ -13,7 +13,7 @@ DefaultDirName={pf}\DigiDNA\iMazing
 DefaultGroupName=iMazing
 UninstallDisplayIcon={app}\iMazing.exe
 UninstallDisplayName=iMazing
-OutputBaseFilename=tmpzpe441.tmp
+OutputBaseFilename=tmprexju4.tmp
 Compression=lzma
 ArchitecturesInstallIn64BitMode=x64 
 DisableDirPage=auto
@@ -6002,7 +6002,7 @@ IDP_503=Service temporaily unavailable (503)
 AppName=iMazing
 CompanyName=DigiDNA
 DependenciesDir=iMazing Dependencies
-AppVersion=3.1.4.0
+AppVersion=3.3.0.0
 MSI31Title=Windows Installer 3.1
 dotnet4Title=Microsoft .NET Framework 4.6.2
 UninstallAppleComponentsTitle=iMazing Apple Drivers Checker
