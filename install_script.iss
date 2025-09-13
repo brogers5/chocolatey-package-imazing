@@ -2,9 +2,9 @@
 
 [Setup]
 AppName=iMazing
-AppVerName=iMazing 3.3.1.0
+AppVerName=iMazing 3.4.0.3
 AppId=iMazing
-AppVersion=3.3.1.0
+AppVersion=3.4.0.3
 AppPublisher=DigiDNA
 AppPublisherURL=https://imazing.com
 AppSupportURL=https://imazing.com/support
@@ -13,7 +13,7 @@ DefaultDirName={pf}\DigiDNA\iMazing
 DefaultGroupName=iMazing
 UninstallDisplayIcon={app}\iMazing.exe
 UninstallDisplayName=iMazing
-OutputBaseFilename=tmpu5in13.tmp
+OutputBaseFilename=tmpfh0j1i.tmp
 Compression=lzma
 ArchitecturesInstallIn64BitMode=x64 
 DisableDirPage=auto
@@ -584,6 +584,20 @@ Source: "{app}\Resources\BrowserMediaIcon.ico"; DestDir: "{app}\Resources"; Flag
 Source: "{app}\Resources\BrowserPicturesIcon.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\BrowserRootIcon.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\CallStatusOutgoing.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\CallVideoIncoming_Solid_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\CallVideoIncoming_Solid_Template.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\CallVideoMissed_Color.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\CallVideoMissed_Color.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\CallVideoOutgoing_Solid_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\CallVideoOutgoing_Solid_Template.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\CallVideo_Solid_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\CallVideo_Solid_Template.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\CallVoiceIncoming_Solid_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\CallVoiceIncoming_Solid_Template.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\CallVoiceMissed_Color.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\CallVoiceMissed_Color.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\CallVoiceOutgoing_Solid_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\CallVoiceOutgoing_Solid_Template.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\Clear.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\CloudFillTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\CloudTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
@@ -687,7 +701,6 @@ Source: "{app}\Resources\Dataset-Ringtones.ico"; DestDir: "{app}\Resources"; Fla
 Source: "{app}\Resources\Dataset-Safari.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\Dataset-Storage.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\defaultAttachmentIcon.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
-Source: "{app}\Resources\DefaultMoviethumbnail.jpg"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\DesktopComputerTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\DownloadTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\DRMTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
@@ -760,6 +773,12 @@ Source: "{app}\Resources\MusicNoteTVTemplate.ico"; DestDir: "{app}\Resources"; F
 Source: "{app}\Resources\MusicQuarterNoteTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\NextButtonIcon.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\NoPlayTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\Notes-MultipleSelection-Dark.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\Notes-MultipleSelection.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\Notes-NoSelection-Dark.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\Notes-NoSelection.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\Notes-Protected-Dark.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\Notes-Protected.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\NotificationBubbleTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\NSCaution.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\OptionBackupLocationTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
@@ -777,19 +796,22 @@ Source: "{app}\Resources\PhotoBurstCheck.ico"; DestDir: "{app}\Resources"; Flags
 Source: "{app}\Resources\PhotoCloud.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoFavorite.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoHDR.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
-Source: "{app}\Resources\PhotoLive.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoPhotoBadge.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoPortrait.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\PhotosCamera_Solid_48.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\PhotosCamera_Solid_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoSidebarAlbumTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoSidebarAllPhotosTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoSidebarBurstsTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoSidebarCameraTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\PhotoSidebarCinematicTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoSidebarDepthTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoSidebarFavoritesTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoSidebarFolderTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoSidebarGIFTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoSidebarHiddenTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoSidebarLivePhotosTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\PhotoSidebarLongExposureTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoSidebarMissingIconTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoSidebarOverviewTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoSidebarPanoramasTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
@@ -803,7 +825,9 @@ Source: "{app}\Resources\PhotoSidebarSyncedAlbumTemplate.ico"; DestDir: "{app}\R
 Source: "{app}\Resources\PhotoSidebarTimelapseTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoSidebarTrashTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoSidebarVideosTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\PhotosLiveOff_Stroke_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotosPlay.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\PhotosVideos_Solid_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoUserTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PhotoVideoBadge.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\PlayButtonTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
@@ -854,6 +878,8 @@ Source: "{app}\Resources\StatusQuestion.ico"; DestDir: "{app}\Resources"; Flags:
 Source: "{app}\Resources\StatusStop.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\StatusSynced.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\StopButtonTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\Stop_Stroke_48.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\Stop_Stroke_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\ThankYou.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\TimeMachineDisk.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\ToolbarBack.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
@@ -902,20 +928,26 @@ Source: "{app}\Resources\VKIconLockedLock-NoMargin.ico"; DestDir: "{app}\Resourc
 Source: "{app}\Resources\VKIconLockedLock.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\VKIconPartialBackup-NoMargin.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\WaveformTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
-Source: "{app}\Resources\WhatsAppKindAudioTemplate.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
-Source: "{app}\Resources\WhatsAppKindDeletedTemplate.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
-Source: "{app}\Resources\WhatsAppKindFailedTemplate.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
-Source: "{app}\Resources\WhatsAppKindGifTemplate.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
-Source: "{app}\Resources\WhatsAppKindMissedAudioCall.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
-Source: "{app}\Resources\WhatsAppKindMissedVideoCall.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
-Source: "{app}\Resources\WhatsAppKindPhotoTemplate.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
-Source: "{app}\Resources\WhatsAppKindStickerTemplate.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
-Source: "{app}\Resources\WhatsAppKindVideoTemplate.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
-Source: "{app}\Resources\WhatsAppStarredTemplate.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
-Source: "{app}\Resources\WhatsAppStatusNotSentTemplate.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
-Source: "{app}\Resources\WhatsAppStatusRead.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
-Source: "{app}\Resources\WhatsAppStatusReceivedTemplate.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
-Source: "{app}\Resources\WhatsAppStatusSentTemplate.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\WhatsappKindAudio_Solid_48.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\WhatsappKindAudio_Solid_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\WhatsappKindDeleted_Color.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\WhatsappKindDeleted_Color.ico.48.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\WhatsappKindGif_Solid_48.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\WhatsappKindGif_Solid_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\WhatsappKindSticker_Solid_48.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\WhatsappKindSticker_Solid_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\WhatsappPreviewPhoto_Stroke_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\WhatsappPreviewVideo_Stroke_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\WhatsappStatusPending_Stroke_48.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\WhatsappStatusPending_Stroke_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\WhatsappStatusRead_48.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\WhatsappStatusRead_Color.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\WhatsappStatusReceived_Stroke_48.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\WhatsappStatusReceived_Stroke_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\WhatsappStatusSent_Stroke_48.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\WhatsappStatusSent_Stroke_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\WhatsappStatusStarred_Solid_48.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\WhatsappStatusStarred_Solid_Template.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\WhiteCloseButton.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\WizardActivationRequiered_iPad-Dark.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\WizardActivationRequiered_iPad.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
@@ -1052,6 +1084,14 @@ Source: "{app}\Resources\DDNAToolKit\AppleTV5.png"; DestDir: "{app}\Resources\DD
 Source: "{app}\Resources\DDNAToolKit\com.apple.apple-tv-3.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.apple-tv-4.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.apple-tv-4k-3rd.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-se-3-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-se-3-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-11-32.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-11-34.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-11-4.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-11-41.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-ultra-3-14.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-ultra-3-8.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.homepod-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.homepod-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.homepod-2nd-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -1389,6 +1429,8 @@ Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-15-pro-9-clear.png"; DestD
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-15-pro-9.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-1-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-12-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-12.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-18-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-18.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-2-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -1409,6 +1451,12 @@ Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-pro-4-clear.png"; DestD
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-pro-4.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-pro-5-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-16-pro-5.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17-2-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17-pro-2-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17-pro-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17-pro-max-2-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17-pro-max-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-3g.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-4-black.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-4-cdma-black.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -1454,6 +1502,14 @@ Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-8-6.png"; DestDir: "{app}\
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-8-7.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-8-plus-3.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-8-plus-6.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-air-1-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-air-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-air-2-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-air-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-air-3-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-air-3.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-air-9-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-air-9.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-se-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-se-aeb1b8.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-se-d6c8b9.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -1516,12 +1572,14 @@ Source: "{app}\Resources\DDNAToolKit\com.apple.ipod-touch-7-6.png"; DestDir: "{a
 Source: "{app}\Resources\DDNAToolKit\com.apple.ipod-touch-7-9.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.ipod-touch.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.macbookair-13-2022.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.macbookair-15-2023.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.macbookair.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.macbookpro-13.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.macbookpro-14-2021.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.macbookpro-15.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.macbookpro-16-2021.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.macbookpro-16.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.macmini-2024.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.macmini-silver.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.macmini.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.macpro-2019.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -6002,7 +6060,7 @@ IDP_503=Service temporaily unavailable (503)
 AppName=iMazing
 CompanyName=DigiDNA
 DependenciesDir=iMazing Dependencies
-AppVersion=3.3.1.0
+AppVersion=3.4.0.3
 MSI31Title=Windows Installer 3.1
 dotnet4Title=Microsoft .NET Framework 4.6.2
 UninstallAppleComponentsTitle=iMazing Apple Drivers Checker
