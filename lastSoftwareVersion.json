@@ -1,4 +1,11 @@
 {
   "V2": "2.18.1",
-  "V3": "3.4.0.3"
+  "V3": {
+    "Major": 3,
+    "Minor": 4,
+    "Build": 0,
+    "Revision": 4,
+    "MajorRevision": 0,
+    "MinorRevision": 4
+  }
 }
