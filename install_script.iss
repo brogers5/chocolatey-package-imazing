@@ -2,9 +2,9 @@
 
 [Setup]
 AppName=iMazing
-AppVerName=iMazing 3.4.0.8
+AppVerName=iMazing 3.4.0.9
 AppId=iMazing
-AppVersion=3.4.0.8
+AppVersion=3.4.0.9
 AppPublisher=DigiDNA
 AppPublisherURL=https://imazing.com
 AppSupportURL=https://imazing.com/support
@@ -13,7 +13,7 @@ DefaultDirName={pf}\DigiDNA\iMazing
 DefaultGroupName=iMazing
 UninstallDisplayIcon={app}\iMazing.exe
 UninstallDisplayName=iMazing
-OutputBaseFilename=tmpttujjn.tmp
+OutputBaseFilename=tmpjljzxs.tmp
 Compression=lzma
 ArchitecturesInstallIn64BitMode=x64 
 DisableDirPage=auto
@@ -1250,6 +1250,10 @@ Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-11-4th-1-clear.png"; Des
 Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-11-4th-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-11-4th-2-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-11-4th-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-11-inch-m5-1-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-11-inch-m5-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-11-inch-m5-2-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-11-inch-m5-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-12point9-1-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-12point9-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-12point9-2-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -1258,6 +1262,10 @@ Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-12point9-6th-1-clear.png
 Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-12point9-6th-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-12point9-6th-2-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-12point9-6th-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-13-inch-m5-1-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-13-inch-m5-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-13-inch-m5-2-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-13-inch-m5-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-9point7-wifi-b9b7ba.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-9point7-wifi-dadcdb.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-pro-9point7-wifi-e1ccb7.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -1704,6 +1712,7 @@ Source: "{app}\Resources\DDNAToolKit\iOS15-screen-hello-3to2.png"; DestDir: "{ap
 Source: "{app}\Resources\DDNAToolKit\iOS15-screen-hello-4to3.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\iOS15-screen-hello-71to40.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\iOS15-screen-hello-812to375.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\iOSBluetoothLogging.mobileconfig"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\iTunesCDB"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\iTunesControl"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\iTunesPrefs"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -1729,7 +1738,9 @@ Source: "{app}\Resources\DDNAToolKit\UniCNS-UCS2-H"; DestDir: "{app}\Resources\D
 Source: "{app}\Resources\DDNAToolKit\UniGB-UCS2-H"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\UniKS-UCS2-H"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\unknown-app.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\visionOSBluetoothLogging.mobileconfig"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\VoiceMemos.plist"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\watchOSBluetoothLogging.mobileconfig"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\watchOSlogging.mobileconfig"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\en.lproj\DDNAToolKitErrors.strings"; DestDir: "{app}\Resources\DDNAToolKit\en.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\en.lproj\DDNAToolKitLabels.strings"; DestDir: "{app}\Resources\DDNAToolKit\en.lproj"; Flags: ignoreversion 
@@ -6060,7 +6071,7 @@ IDP_503=Service temporaily unavailable (503)
 AppName=iMazing
 CompanyName=DigiDNA
 DependenciesDir=iMazing Dependencies
-AppVersion=3.4.0.8
+AppVersion=3.4.0.9
 MSI31Title=Windows Installer 3.1
 dotnet4Title=Microsoft .NET Framework 4.6.2
 UninstallAppleComponentsTitle=iMazing Apple Drivers Checker
