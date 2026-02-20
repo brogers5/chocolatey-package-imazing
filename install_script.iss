@@ -2,9 +2,9 @@
 
 [Setup]
 AppName=iMazing
-AppVerName=iMazing 3.4.0.10
+AppVerName=iMazing 3.5.0.0
 AppId=iMazing
-AppVersion=3.4.0.10
+AppVersion=3.5.0.0
 AppPublisher=DigiDNA
 AppPublisherURL=https://imazing.com
 AppSupportURL=https://imazing.com/support
@@ -13,7 +13,7 @@ DefaultDirName={pf}\DigiDNA\iMazing
 DefaultGroupName=iMazing
 UninstallDisplayIcon={app}\iMazing.exe
 UninstallDisplayName=iMazing
-OutputBaseFilename=tmp2ramey.tmp
+OutputBaseFilename=tmp4uvsei.tmp
 Compression=lzma
 ArchitecturesInstallIn64BitMode=x64 
 DisableDirPage=auto
@@ -76,13 +76,13 @@ Source: "{app}\avformat-59,1.dll"; DestDir: "{app}"; DestName: "avformat-59.dll"
 Source: "{app}\avutil-57,1.dll"; DestDir: "{app}"; DestName: "avutil-57.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\BetterDP,1.dll"; DestDir: "{app}"; DestName: "BetterDP.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\BouncyCastle.Crypto,1.dll"; DestDir: "{app}"; DestName: "BouncyCastle.Crypto.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
-Source: "{app}\ChangeLog,1.txt"; DestDir: "{app}"; DestName: "ChangeLog.txt"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\Colors,1.colorset"; DestDir: "{app}"; DestName: "Colors.colorset"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\ColorSetKit,1.dll"; DestDir: "{app}"; DestName: "ColorSetKit.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\concrt140,1.dll"; DestDir: "{app}"; DestName: "concrt140.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\DDNAInterop,1.dll"; DestDir: "{app}"; DestName: "DDNAInterop.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\DDNAToolKit,1.dll"; DestDir: "{app}"; DestName: "DDNAToolKit.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\DDNAToolKitNET,1.dll"; DestDir: "{app}"; DestName: "DDNAToolKitNET.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
+Source: "{app}\Defaults-Generator-Shared,1.dll"; DestDir: "{app}"; DestName: "Defaults-Generator-Shared.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\DevKit,1.dll"; DestDir: "{app}"; DestName: "DevKit.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\FunctionalSharp,1.dll"; DestDir: "{app}"; DestName: "FunctionalSharp.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\gpod,1.dll"; DestDir: "{app}"; DestName: "gpod.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
@@ -108,7 +108,6 @@ Source: "{app}\Interop.PortableDeviceTypesLib,1.dll"; DestDir: "{app}"; DestName
 Source: "{app}\ISOBMFF_DLL_v142,1.dll"; DestDir: "{app}"; DestName: "ISOBMFF_DLL_v142.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\libSkiaSharp,1.dll"; DestDir: "{app}"; DestName: "libSkiaSharp.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\libSkiaSharp,1.dylib"; DestDir: "{app}"; DestName: "libSkiaSharp.dylib"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
-Source: "{app}\LICENSE,1"; DestDir: "{app}"; DestName: "LICENSE"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\LottieSharp,1.dll"; DestDir: "{app}"; DestName: "LottieSharp.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\Manifest-Operations-Shared,1.dll"; DestDir: "{app}"; DestName: "Manifest-Operations-Shared.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\Microsoft.Bcl.AsyncInterfaces,1.dll"; DestDir: "{app}"; DestName: "Microsoft.Bcl.AsyncInterfaces.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
@@ -118,6 +117,7 @@ Source: "{app}\Microsoft.Web.WebView2.WinForms,1.dll"; DestDir: "{app}"; DestNam
 Source: "{app}\Microsoft.Web.WebView2.Wpf,1.dll"; DestDir: "{app}"; DestName: "Microsoft.Web.WebView2.Wpf.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\Microsoft.Win32.Primitives,1.dll"; DestDir: "{app}"; DestName: "Microsoft.Win32.Primitives.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\Microsoft.Xaml.Behaviors,1.dll"; DestDir: "{app}"; DestName: "Microsoft.Xaml.Behaviors.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
+Source: "{app}\Modern-File-Dialogs,1.dll"; DestDir: "{app}"; DestName: "Modern-File-Dialogs.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\msvcp140,1.dll"; DestDir: "{app}"; DestName: "msvcp140.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\msvcp140_1,1.dll"; DestDir: "{app}"; DestName: "msvcp140_1.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\msvcp140_2,1.dll"; DestDir: "{app}"; DestName: "msvcp140_2.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
@@ -130,7 +130,6 @@ Source: "{app}\pdflib,1.dll"; DestDir: "{app}"; DestName: "pdflib.dll"; Check: "
 Source: "{app}\PdfSharp.Charting,1.dll"; DestDir: "{app}"; DestName: "PdfSharp.Charting.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\PdfSharp,1.dll"; DestDir: "{app}"; DestName: "PdfSharp.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\plist-cil,1.dll"; DestDir: "{app}"; DestName: "plist-cil.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
-Source: "{app}\README,1.txt"; DestDir: "{app}"; DestName: "README.txt"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\Sentry,1.dll"; DestDir: "{app}"; DestName: "Sentry.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\SkiaSharp,1.dll"; DestDir: "{app}"; DestName: "SkiaSharp.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\SkiaSharp.SceneGraph,1.dll"; DestDir: "{app}"; DestName: "SkiaSharp.SceneGraph.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
@@ -148,6 +147,7 @@ Source: "{app}\System.Collections,1.dll"; DestDir: "{app}"; DestName: "System.Co
 Source: "{app}\System.Collections.Immutable,1.dll"; DestDir: "{app}"; DestName: "System.Collections.Immutable.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\System.Collections.NonGeneric,1.dll"; DestDir: "{app}"; DestName: "System.Collections.NonGeneric.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\System.Collections.Specialized,1.dll"; DestDir: "{app}"; DestName: "System.Collections.Specialized.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
+Source: "{app}\System.CommandLine,1.dll"; DestDir: "{app}"; DestName: "System.CommandLine.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\System.ComponentModel,1.dll"; DestDir: "{app}"; DestName: "System.ComponentModel.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\System.ComponentModel.EventBasedAsync,1.dll"; DestDir: "{app}"; DestName: "System.ComponentModel.EventBasedAsync.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\System.ComponentModel.Primitives,1.dll"; DestDir: "{app}"; DestName: "System.ComponentModel.Primitives.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
@@ -178,6 +178,8 @@ Source: "{app}\System.IO.FileSystem.Primitives,1.dll"; DestDir: "{app}"; DestNam
 Source: "{app}\System.IO.FileSystem.Watcher,1.dll"; DestDir: "{app}"; DestName: "System.IO.FileSystem.Watcher.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\System.IO.IsolatedStorage,1.dll"; DestDir: "{app}"; DestName: "System.IO.IsolatedStorage.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\System.IO.MemoryMappedFiles,1.dll"; DestDir: "{app}"; DestName: "System.IO.MemoryMappedFiles.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
+Source: "{app}\System.IO.Pipelines,1.dll"; DestDir: "{app}"; DestName: "System.IO.Pipelines.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
+Source: "{app}\System.IO.Pipelines,1.xml"; DestDir: "{app}"; DestName: "System.IO.Pipelines.xml"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\System.IO.Pipes,1.dll"; DestDir: "{app}"; DestName: "System.IO.Pipes.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\System.IO.UnmanagedMemoryStream,1.dll"; DestDir: "{app}"; DestName: "System.IO.UnmanagedMemoryStream.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\System.Linq,1.dll"; DestDir: "{app}"; DestName: "System.Linq.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
@@ -282,11 +284,13 @@ Source: "{app}\images\com.apple.Music,1.png"; DestDir: "{app}\images"; DestName:
 Source: "{app}\images\com.apple.Passbook,1.png"; DestDir: "{app}\images"; DestName: "com.apple.Passbook.png"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\images\com.apple.Preferences,1.png"; DestDir: "{app}\images"; DestName: "com.apple.Preferences.png"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\images\domainIconDefault,1.png"; DestDir: "{app}\images"; DestName: "domainIconDefault.png"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
-Source: "{app}\images\domainIconunfamiliar,1.png"; DestDir: "{app}\images"; DestName: "domainIconunfamiliar.png"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
-Source: "{app}\images\iconPlaceholder,1.png"; DestDir: "{app}\images"; DestName: "iconPlaceholder.png"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
+Source: "{app}\images\toolbarAdd@2x,1.png"; DestDir: "{app}\images"; DestName: "toolbarAdd@2x.png"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
+Source: "{app}\images\toolbarAddApp@2x,1.png"; DestDir: "{app}\images"; DestName: "toolbarAddApp@2x.png"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\images\toolbarDefaults@2x,1.png"; DestDir: "{app}\images"; DestName: "toolbarDefaults@2x.png"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
+Source: "{app}\images\toolbarDuplicate@2x,1.png"; DestDir: "{app}\images"; DestName: "toolbarDuplicate@2x.png"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\images\toolbarGeneral@2x,1.png"; DestDir: "{app}\images"; DestName: "toolbarGeneral@2x.png"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\images\toolbarManifests@2x,1.png"; DestDir: "{app}\images"; DestName: "toolbarManifests@2x.png"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
+Source: "{app}\images\toolbarRemove@2x,1.png"; DestDir: "{app}\images"; DestName: "toolbarRemove@2x.png"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\images\updates@2x,1.png"; DestDir: "{app}\images"; DestName: "updates@2x.png"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\nl\PdfiumViewer.resources,1.dll"; DestDir: "{app}\nl"; DestName: "PdfiumViewer.resources.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\x64\libSkiaSharp,1.dll"; DestDir: "{app}\x64"; DestName: "libSkiaSharp.dll"; Check: "not Is64BitInstallMode"; Flags: ignoreversion 
@@ -344,13 +348,13 @@ Source: "{app}\avformat-59,2.dll"; DestDir: "{app}"; DestName: "avformat-59.dll"
 Source: "{app}\avutil-57,2.dll"; DestDir: "{app}"; DestName: "avutil-57.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\BetterDP,2.dll"; DestDir: "{app}"; DestName: "BetterDP.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\BouncyCastle.Crypto,2.dll"; DestDir: "{app}"; DestName: "BouncyCastle.Crypto.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
-Source: "{app}\ChangeLog,2.txt"; DestDir: "{app}"; DestName: "ChangeLog.txt"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\Colors,2.colorset"; DestDir: "{app}"; DestName: "Colors.colorset"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\ColorSetKit,2.dll"; DestDir: "{app}"; DestName: "ColorSetKit.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\concrt140,2.dll"; DestDir: "{app}"; DestName: "concrt140.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\DDNAInterop,2.dll"; DestDir: "{app}"; DestName: "DDNAInterop.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\DDNAToolKit,2.dll"; DestDir: "{app}"; DestName: "DDNAToolKit.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\DDNAToolKitNET,2.dll"; DestDir: "{app}"; DestName: "DDNAToolKitNET.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
+Source: "{app}\Defaults-Generator-Shared,2.dll"; DestDir: "{app}"; DestName: "Defaults-Generator-Shared.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\DevKit,2.dll"; DestDir: "{app}"; DestName: "DevKit.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\FunctionalSharp,2.dll"; DestDir: "{app}"; DestName: "FunctionalSharp.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\gpod,2.dll"; DestDir: "{app}"; DestName: "gpod.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
@@ -376,7 +380,6 @@ Source: "{app}\Interop.PortableDeviceTypesLib,2.dll"; DestDir: "{app}"; DestName
 Source: "{app}\ISOBMFF_DLL_v142,2.dll"; DestDir: "{app}"; DestName: "ISOBMFF_DLL_v142.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\libSkiaSharp,2.dll"; DestDir: "{app}"; DestName: "libSkiaSharp.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\libSkiaSharp,2.dylib"; DestDir: "{app}"; DestName: "libSkiaSharp.dylib"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
-Source: "{app}\LICENSE,2"; DestDir: "{app}"; DestName: "LICENSE"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\LottieSharp,2.dll"; DestDir: "{app}"; DestName: "LottieSharp.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\Manifest-Operations-Shared,2.dll"; DestDir: "{app}"; DestName: "Manifest-Operations-Shared.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\Microsoft.Bcl.AsyncInterfaces,2.dll"; DestDir: "{app}"; DestName: "Microsoft.Bcl.AsyncInterfaces.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
@@ -386,6 +389,7 @@ Source: "{app}\Microsoft.Web.WebView2.WinForms,2.dll"; DestDir: "{app}"; DestNam
 Source: "{app}\Microsoft.Web.WebView2.Wpf,2.dll"; DestDir: "{app}"; DestName: "Microsoft.Web.WebView2.Wpf.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\Microsoft.Win32.Primitives,2.dll"; DestDir: "{app}"; DestName: "Microsoft.Win32.Primitives.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\Microsoft.Xaml.Behaviors,2.dll"; DestDir: "{app}"; DestName: "Microsoft.Xaml.Behaviors.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
+Source: "{app}\Modern-File-Dialogs,2.dll"; DestDir: "{app}"; DestName: "Modern-File-Dialogs.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\msvcp140,2.dll"; DestDir: "{app}"; DestName: "msvcp140.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\msvcp140_1,2.dll"; DestDir: "{app}"; DestName: "msvcp140_1.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\msvcp140_2,2.dll"; DestDir: "{app}"; DestName: "msvcp140_2.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
@@ -398,7 +402,6 @@ Source: "{app}\pdflib,2.dll"; DestDir: "{app}"; DestName: "pdflib.dll"; Check: "
 Source: "{app}\PdfSharp.Charting,2.dll"; DestDir: "{app}"; DestName: "PdfSharp.Charting.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\PdfSharp,2.dll"; DestDir: "{app}"; DestName: "PdfSharp.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\plist-cil,2.dll"; DestDir: "{app}"; DestName: "plist-cil.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
-Source: "{app}\README,2.txt"; DestDir: "{app}"; DestName: "README.txt"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\Sentry,2.dll"; DestDir: "{app}"; DestName: "Sentry.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\SkiaSharp,2.dll"; DestDir: "{app}"; DestName: "SkiaSharp.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\SkiaSharp.SceneGraph,2.dll"; DestDir: "{app}"; DestName: "SkiaSharp.SceneGraph.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
@@ -416,6 +419,7 @@ Source: "{app}\System.Collections,2.dll"; DestDir: "{app}"; DestName: "System.Co
 Source: "{app}\System.Collections.Immutable,2.dll"; DestDir: "{app}"; DestName: "System.Collections.Immutable.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\System.Collections.NonGeneric,2.dll"; DestDir: "{app}"; DestName: "System.Collections.NonGeneric.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\System.Collections.Specialized,2.dll"; DestDir: "{app}"; DestName: "System.Collections.Specialized.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
+Source: "{app}\System.CommandLine,2.dll"; DestDir: "{app}"; DestName: "System.CommandLine.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\System.ComponentModel,2.dll"; DestDir: "{app}"; DestName: "System.ComponentModel.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\System.ComponentModel.EventBasedAsync,2.dll"; DestDir: "{app}"; DestName: "System.ComponentModel.EventBasedAsync.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\System.ComponentModel.Primitives,2.dll"; DestDir: "{app}"; DestName: "System.ComponentModel.Primitives.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
@@ -446,6 +450,8 @@ Source: "{app}\System.IO.FileSystem.Primitives,2.dll"; DestDir: "{app}"; DestNam
 Source: "{app}\System.IO.FileSystem.Watcher,2.dll"; DestDir: "{app}"; DestName: "System.IO.FileSystem.Watcher.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\System.IO.IsolatedStorage,2.dll"; DestDir: "{app}"; DestName: "System.IO.IsolatedStorage.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\System.IO.MemoryMappedFiles,2.dll"; DestDir: "{app}"; DestName: "System.IO.MemoryMappedFiles.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
+Source: "{app}\System.IO.Pipelines,2.dll"; DestDir: "{app}"; DestName: "System.IO.Pipelines.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
+Source: "{app}\System.IO.Pipelines,2.xml"; DestDir: "{app}"; DestName: "System.IO.Pipelines.xml"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\System.IO.Pipes,2.dll"; DestDir: "{app}"; DestName: "System.IO.Pipes.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\System.IO.UnmanagedMemoryStream,2.dll"; DestDir: "{app}"; DestName: "System.IO.UnmanagedMemoryStream.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\System.Linq,2.dll"; DestDir: "{app}"; DestName: "System.Linq.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
@@ -551,11 +557,13 @@ Source: "{app}\images\com.apple.Music,2.png"; DestDir: "{app}\images"; DestName:
 Source: "{app}\images\com.apple.Passbook,2.png"; DestDir: "{app}\images"; DestName: "com.apple.Passbook.png"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\images\com.apple.Preferences,2.png"; DestDir: "{app}\images"; DestName: "com.apple.Preferences.png"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\images\domainIconDefault,2.png"; DestDir: "{app}\images"; DestName: "domainIconDefault.png"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
-Source: "{app}\images\domainIconunfamiliar,2.png"; DestDir: "{app}\images"; DestName: "domainIconunfamiliar.png"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
-Source: "{app}\images\iconPlaceholder,2.png"; DestDir: "{app}\images"; DestName: "iconPlaceholder.png"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
+Source: "{app}\images\toolbarAdd@2x,2.png"; DestDir: "{app}\images"; DestName: "toolbarAdd@2x.png"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
+Source: "{app}\images\toolbarAddApp@2x,2.png"; DestDir: "{app}\images"; DestName: "toolbarAddApp@2x.png"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\images\toolbarDefaults@2x,2.png"; DestDir: "{app}\images"; DestName: "toolbarDefaults@2x.png"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
+Source: "{app}\images\toolbarDuplicate@2x,2.png"; DestDir: "{app}\images"; DestName: "toolbarDuplicate@2x.png"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\images\toolbarGeneral@2x,2.png"; DestDir: "{app}\images"; DestName: "toolbarGeneral@2x.png"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\images\toolbarManifests@2x,2.png"; DestDir: "{app}\images"; DestName: "toolbarManifests@2x.png"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
+Source: "{app}\images\toolbarRemove@2x,2.png"; DestDir: "{app}\images"; DestName: "toolbarRemove@2x.png"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\images\updates@2x,2.png"; DestDir: "{app}\images"; DestName: "updates@2x.png"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\nl\PdfiumViewer.resources,2.dll"; DestDir: "{app}\nl"; DestName: "PdfiumViewer.resources.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
 Source: "{app}\x64\libSkiaSharp,2.dll"; DestDir: "{app}\x64"; DestName: "libSkiaSharp.dll"; Check: "Is64BitInstallMode"; Flags: ignoreversion 
@@ -707,6 +715,34 @@ Source: "{app}\Resources\DRMTemplate.ico"; DestDir: "{app}\Resources"; Flags: ig
 Source: "{app}\Resources\DropZone.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\EmptyStateBackups-Dark.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\EmptyStateBackups.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Books-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Books.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Books_Audio-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Books_Audio.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Calls-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Calls.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Contacts-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Contacts.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Files-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Files.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Messages-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Messages.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Music-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Music.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Photos-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Photos.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Podcasts-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Podcasts.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Ringtones-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Ringtones.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Safari-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Safari.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_VoiceMail-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_VoiceMail.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Voicememo-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Voicememo.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Whatsapp-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Whatsapp.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\EULA.rtf"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\FileVaultIcon.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\FilmTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
@@ -1075,6 +1111,7 @@ Source: "{app}\Resources\WizardWait_iPhone-Dark.png"; DestDir: "{app}\Resources"
 Source: "{app}\Resources\WizardWait_iPhone.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\ar.lproj\GenericLabels.strings"; DestDir: "{app}\Resources\ar.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\ar.lproj\iMazingLabels.strings"; DestDir: "{app}\Resources\ar.lproj"; Flags: ignoreversion 
+Source: "{app}\Resources\ar.lproj\InfoPlist.strings"; DestDir: "{app}\Resources\ar.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\ar.lproj\WebCoherenceLabels.strings"; DestDir: "{app}\Resources\ar.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\Adobe-CNS1-UCS2"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\Adobe-GB1-UCS2"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -1746,6 +1783,7 @@ Source: "{app}\Resources\DDNAToolKit\en.lproj\DDNAToolKitErrors.strings"; DestDi
 Source: "{app}\Resources\DDNAToolKit\en.lproj\DDNAToolKitLabels.strings"; DestDir: "{app}\Resources\DDNAToolKit\en.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\de.lproj\GenericLabels.strings"; DestDir: "{app}\Resources\de.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\de.lproj\iMazingLabels.strings"; DestDir: "{app}\Resources\de.lproj"; Flags: ignoreversion 
+Source: "{app}\Resources\de.lproj\InfoPlist.strings"; DestDir: "{app}\Resources\de.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\de.lproj\WebCoherenceLabels.strings"; DestDir: "{app}\Resources\de.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\0000.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\hiddenglyph.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -1846,6 +1884,7 @@ Source: "{app}\Resources\emojis\64@72\u1F1E8_u1F1F1.png"; DestDir: "{app}\Resour
 Source: "{app}\Resources\emojis\64@72\u1F1E8_u1F1F2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F1E8_u1F1F3.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F1E8_u1F1F4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F1E8_u1F1F6.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F1E8_u1F1F7.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F1E8_u1F1FA.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F1E8_u1F1FB.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -2257,23 +2296,41 @@ Source: "{app}\Resources\emojis\64@72\u1F3C0.png"; DestDir: "{app}\Resources\emo
 Source: "{app}\Resources\emojis\64@72\u1F3C1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C3.0.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F3C3.0.M.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C3.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F3C3.0.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C3.0.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F3C3.0.W.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C3.1.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F3C3.1.M.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C3.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F3C3.1.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C3.1.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F3C3.1.W.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C3.2.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F3C3.2.M.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C3.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F3C3.2.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C3.2.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F3C3.2.W.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C3.3.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F3C3.3.M.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C3.3.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F3C3.3.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C3.3.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F3C3.3.W.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C3.4.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F3C3.4.M.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C3.4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F3C3.4.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C3.4.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F3C3.4.W.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C3.5.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F3C3.5.M.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C3.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F3C3.5.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C3.5.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F3C3.5.W.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C4.0.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C4.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F3C4.0.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -2750,11 +2807,17 @@ Source: "{app}\Resources\emojis\64@72\u1F468_u1F91D_u1F468.53.png"; DestDir: "{a
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F91D_u1F468.54.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F91D_u1F468.55.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9AF.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468_u1F9AF.0.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9AF.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468_u1F9AF.1.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9AF.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468_u1F9AF.2.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9AF.3.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468_u1F9AF.3.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9AF.4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468_u1F9AF.4.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9AF.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468_u1F9AF.5.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9B0.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9B0.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9B0.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -2780,17 +2843,29 @@ Source: "{app}\Resources\emojis\64@72\u1F468_u1F9B3.3.png"; DestDir: "{app}\Reso
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9B3.4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9B3.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BC.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BC.0.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BC.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BC.1.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BC.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BC.2.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BC.3.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BC.3.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BC.4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BC.4.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BC.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BC.5.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BD.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BD.0.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BD.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BD.1.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BD.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BD.2.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BD.3.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BD.3.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BD.4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BD.4.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BD.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468_u1F9BD.5.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u2695.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u2695.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u2695.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -2984,11 +3059,17 @@ Source: "{app}\Resources\emojis\64@72\u1F469_u1F91D_u1F469.53.png"; DestDir: "{a
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F91D_u1F469.54.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F91D_u1F469.55.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9AF.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469_u1F9AF.0.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9AF.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469_u1F9AF.1.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9AF.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469_u1F9AF.2.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9AF.3.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469_u1F9AF.3.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9AF.4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469_u1F9AF.4.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9AF.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469_u1F9AF.5.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9B0.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9B0.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9B0.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -3014,17 +3095,29 @@ Source: "{app}\Resources\emojis\64@72\u1F469_u1F9B3.3.png"; DestDir: "{app}\Reso
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9B3.4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9B3.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BC.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BC.0.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BC.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BC.1.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BC.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BC.2.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BC.3.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BC.3.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BC.4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BC.4.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BC.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BC.5.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BD.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BD.0.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BD.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BD.1.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BD.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BD.2.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BD.3.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BD.3.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BD.4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BD.4.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BD.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469_u1F9BD.5.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u2695.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u2695.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u2695.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -3916,23 +4009,41 @@ Source: "{app}\Resources\emojis\64@72\u1F6B5.5.M.png"; DestDir: "{app}\Resources
 Source: "{app}\Resources\emojis\64@72\u1F6B5.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B5.5.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B6.0.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F6B6.0.M.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B6.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F6B6.0.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B6.0.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F6B6.0.W.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B6.1.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F6B6.1.M.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B6.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F6B6.1.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B6.1.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F6B6.1.W.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B6.2.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F6B6.2.M.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B6.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F6B6.2.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B6.2.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F6B6.2.W.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B6.3.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F6B6.3.M.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B6.3.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F6B6.3.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B6.3.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F6B6.3.W.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B6.4.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F6B6.4.M.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B6.4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F6B6.4.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B6.4.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F6B6.4.W.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B6.5.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F6B6.5.M.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B6.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F6B6.5.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B6.5.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F6B6.5.W.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B7.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B8.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6B9.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -4467,23 +4578,41 @@ Source: "{app}\Resources\emojis\64@72\u1F9CD.5.M.png"; DestDir: "{app}\Resources
 Source: "{app}\Resources\emojis\64@72\u1F9CD.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CD.5.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CE.0.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9CE.0.M.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CE.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9CE.0.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CE.0.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9CE.0.W.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CE.1.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9CE.1.M.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CE.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9CE.1.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CE.1.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9CE.1.W.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CE.2.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9CE.2.M.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CE.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9CE.2.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CE.2.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9CE.2.W.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CE.3.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9CE.3.M.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CE.3.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9CE.3.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CE.3.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9CE.3.W.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CE.4.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9CE.4.M.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CE.4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9CE.4.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CE.4.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9CE.4.W.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CE.5.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9CE.5.M.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CE.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9CE.5.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CE.5.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9CE.5.W.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CF.0.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CF.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9CF.0.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -4650,11 +4779,17 @@ Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F91D_u1F9D1.54.png"; DestDir: "{a
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F91D_u1F9D1.55.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F91D_u1F9D1.66.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9AF.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9AF.0.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9AF.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9AF.1.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9AF.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9AF.2.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9AF.3.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9AF.3.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9AF.4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9AF.4.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9AF.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9AF.5.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9B0.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9B0.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9B0.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -4680,17 +4815,29 @@ Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9B3.3.png"; DestDir: "{app}\Reso
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9B3.4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9B3.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BC.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BC.0.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BC.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BC.1.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BC.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BC.2.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BC.3.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BC.3.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BC.4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BC.4.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BC.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BC.5.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BD.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BD.0.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BD.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BD.1.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BD.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BD.2.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BD.3.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BD.3.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BD.4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BD.4.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BD.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BD.5.u27A1.flip"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9D1_u1F9D2_u1F9D2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9D2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9D2_u1F9D2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -4952,6 +5099,8 @@ Source: "{app}\Resources\emojis\64@72\u1FA85.png"; DestDir: "{app}\Resources\emo
 Source: "{app}\Resources\emojis\64@72\u1FA86.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FA87.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FA88.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1FA89.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1FA8F.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FA90.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FA91.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FA92.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -4998,6 +5147,7 @@ Source: "{app}\Resources\emojis\64@72\u1FABA.png"; DestDir: "{app}\Resources\emo
 Source: "{app}\Resources\emojis\64@72\u1FABB.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FABC.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FABD.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1FABE.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FABF.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAC0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAC1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -5020,6 +5170,7 @@ Source: "{app}\Resources\emojis\64@72\u1FAC5.2.png"; DestDir: "{app}\Resources\e
 Source: "{app}\Resources\emojis\64@72\u1FAC5.3.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAC5.4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAC5.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1FAC6.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FACE.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FACF.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAD0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -5034,6 +5185,8 @@ Source: "{app}\Resources\emojis\64@72\u1FAD8.png"; DestDir: "{app}\Resources\emo
 Source: "{app}\Resources\emojis\64@72\u1FAD9.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FADA.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FADB.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1FADC.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1FADF.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAE0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAE1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAE2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -5043,6 +5196,7 @@ Source: "{app}\Resources\emojis\64@72\u1FAE5.png"; DestDir: "{app}\Resources\emo
 Source: "{app}\Resources\emojis\64@72\u1FAE6.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAE7.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAE8.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1FAE9.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAF0.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAF0.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAF0.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -5321,51 +5475,63 @@ Source: "{app}\Resources\emojis\64@72\u3297.png"; DestDir: "{app}\Resources\emoj
 Source: "{app}\Resources\emojis\64@72\u3299.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\en.lproj\GenericLabels.strings"; DestDir: "{app}\Resources\en.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\en.lproj\iMazingLabels.strings"; DestDir: "{app}\Resources\en.lproj"; Flags: ignoreversion 
+Source: "{app}\Resources\en.lproj\InfoPlist.strings"; DestDir: "{app}\Resources\en.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\en.lproj\NoTranslationLabels.strings"; DestDir: "{app}\Resources\en.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\en.lproj\Readme.txt"; DestDir: "{app}\Resources\en.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\en.lproj\URLs.strings"; DestDir: "{app}\Resources\en.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\en.lproj\WebCoherenceLabels.strings"; DestDir: "{app}\Resources\en.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\es.lproj\GenericLabels.strings"; DestDir: "{app}\Resources\es.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\es.lproj\iMazingLabels.strings"; DestDir: "{app}\Resources\es.lproj"; Flags: ignoreversion 
+Source: "{app}\Resources\es.lproj\InfoPlist.strings"; DestDir: "{app}\Resources\es.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\es.lproj\WebCoherenceLabels.strings"; DestDir: "{app}\Resources\es.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\fr.lproj\GenericLabels.strings"; DestDir: "{app}\Resources\fr.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\fr.lproj\iMazingLabels.strings"; DestDir: "{app}\Resources\fr.lproj"; Flags: ignoreversion 
+Source: "{app}\Resources\fr.lproj\InfoPlist.strings"; DestDir: "{app}\Resources\fr.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\fr.lproj\WebCoherenceLabels.strings"; DestDir: "{app}\Resources\fr.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\it.lproj\GenericLabels.strings"; DestDir: "{app}\Resources\it.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\it.lproj\iMazingLabels.strings"; DestDir: "{app}\Resources\it.lproj"; Flags: ignoreversion 
+Source: "{app}\Resources\it.lproj\InfoPlist.strings"; DestDir: "{app}\Resources\it.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\it.lproj\WebCoherenceLabels.strings"; DestDir: "{app}\Resources\it.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\ja.lproj\GenericLabels.strings"; DestDir: "{app}\Resources\ja.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\ja.lproj\iMazingLabels.strings"; DestDir: "{app}\Resources\ja.lproj"; Flags: ignoreversion 
+Source: "{app}\Resources\ja.lproj\InfoPlist.strings"; DestDir: "{app}\Resources\ja.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\ja.lproj\WebCoherenceLabels.strings"; DestDir: "{app}\Resources\ja.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\ko.lproj\GenericLabels.strings"; DestDir: "{app}\Resources\ko.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\ko.lproj\iMazingLabels.strings"; DestDir: "{app}\Resources\ko.lproj"; Flags: ignoreversion 
+Source: "{app}\Resources\ko.lproj\InfoPlist.strings"; DestDir: "{app}\Resources\ko.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\ko.lproj\WebCoherenceLabels.strings"; DestDir: "{app}\Resources\ko.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\Labels\Localized\en.lproj\Readme.txt"; DestDir: "{app}\Resources\Labels\Localized\en.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\NotesResources\note-view-dark.html"; DestDir: "{app}\Resources\NotesResources"; Flags: ignoreversion 
 Source: "{app}\Resources\NotesResources\note-view.html"; DestDir: "{app}\Resources\NotesResources"; Flags: ignoreversion 
 Source: "{app}\Resources\pt.lproj\GenericLabels.strings"; DestDir: "{app}\Resources\pt.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\pt.lproj\iMazingLabels.strings"; DestDir: "{app}\Resources\pt.lproj"; Flags: ignoreversion 
+Source: "{app}\Resources\pt.lproj\InfoPlist.strings"; DestDir: "{app}\Resources\pt.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\pt.lproj\WebCoherenceLabels.strings"; DestDir: "{app}\Resources\pt.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\ru.lproj\GenericLabels.strings"; DestDir: "{app}\Resources\ru.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\ru.lproj\iMazingLabels.strings"; DestDir: "{app}\Resources\ru.lproj"; Flags: ignoreversion 
+Source: "{app}\Resources\ru.lproj\InfoPlist.strings"; DestDir: "{app}\Resources\ru.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\ru.lproj\WebCoherenceLabels.strings"; DestDir: "{app}\Resources\ru.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\Scripts\RestartMobileDeviceServices.bat"; DestDir: "{app}\Resources\Scripts"; Flags: ignoreversion 
 Source: "{app}\Resources\Scripts\RestartWindowsExplorer.bat"; DestDir: "{app}\Resources\Scripts"; Flags: ignoreversion 
 Source: "{app}\Resources\Sounds\Beep.mp3"; DestDir: "{app}\Resources\Sounds"; Flags: ignoreversion 
 Source: "{app}\Resources\uk.lproj\GenericLabels.strings"; DestDir: "{app}\Resources\uk.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\uk.lproj\iMazingLabels.strings"; DestDir: "{app}\Resources\uk.lproj"; Flags: ignoreversion 
+Source: "{app}\Resources\uk.lproj\InfoPlist.strings"; DestDir: "{app}\Resources\uk.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\uk.lproj\WebCoherenceLabels.strings"; DestDir: "{app}\Resources\uk.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\zh-Hant.lproj\GenericLabels.strings"; DestDir: "{app}\Resources\zh-Hant.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\zh-Hant.lproj\iMazingLabels.strings"; DestDir: "{app}\Resources\zh-Hant.lproj"; Flags: ignoreversion 
+Source: "{app}\Resources\zh-Hant.lproj\InfoPlist.strings"; DestDir: "{app}\Resources\zh-Hant.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\zh-Hant.lproj\WebCoherenceLabels.strings"; DestDir: "{app}\Resources\zh-Hant.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\zh.lproj\GenericLabels.strings"; DestDir: "{app}\Resources\zh.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\zh.lproj\iMazingLabels.strings"; DestDir: "{app}\Resources\zh.lproj"; Flags: ignoreversion 
+Source: "{app}\Resources\zh.lproj\InfoPlist.strings"; DestDir: "{app}\Resources\zh.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\zh.lproj\WebCoherenceLabels.strings"; DestDir: "{app}\Resources\zh.lproj"; Flags: ignoreversion 
 Source: "{app}\manifests\com.1password.1password.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.agilebits.onepassword7.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.alectrona.patch-agent.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.alectrona.patch-notifier.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.alectrona.patch.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\com.anthropic.claudefordesktop.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.apple.ADCertificate.managed.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.apple.AdLib.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.apple.AIM.account.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
@@ -5526,6 +5692,7 @@ Source: "{app}\manifests\com.github.macadmins.Nudge.plist"; DestDir: "{app}\mani
 Source: "{app}\manifests\com.github.macadmins.SupportCompanion.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.github.mpanighetti.install-or-defer.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.github.salopensource.sal.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\com.github.wavebirddash.install-or-defer.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.google.Chrome.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.google.drivefs.settings.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.google.Keystone.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
@@ -5559,6 +5726,7 @@ Source: "{app}\manifests\com.microsoft.Outlook.plist"; DestDir: "{app}\manifests
 Source: "{app}\manifests\com.microsoft.Powerpoint.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.microsoft.rdc.macos.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.microsoft.SkypeForBusiness.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\com.microsoft.VSCode.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.microsoft.wdav.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.microsoft.Word.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.northpolesec.santa.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
@@ -5584,9 +5752,11 @@ Source: "{app}\manifests\Configuration.plist"; DestDir: "{app}\manifests"; Flags
 Source: "{app}\manifests\corp.sap.privileges.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\cx.c3.theunarchiver.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\de.fau.rrze.NetworkShareMounter.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\dev.firezone.firezone.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\edu.ncsu.confboard.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\edu.psu.macoslaps.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\fr.handbrake.HandBrake.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\io.macadmins.Outset.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\io.tailscale.ipn.macos.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\io.tailscale.ipn.macsys.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\loginwindow.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
@@ -5599,12 +5769,14 @@ Source: "{app}\manifests\MunkiReport.plist"; DestDir: "{app}\manifests"; Flags: 
 Source: "{app}\manifests\net.glencode.Particulars.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\net.glencode.Particulars.Widget.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\nl.root3.support.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\org.churchofjesuschrist.dorm.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\org.mozilla.firefox.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\org.sveinbjorn.Platypus.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\org.videolan.vlc.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\SupportCompanion.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\uk.co.dataJAR.jamJAR.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\us.zoom.config.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\xyz.techitout.appAutoPatch.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\.GlobalPreferences manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.agilebits.onepassword7 manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.apple.ADCertificate.managed manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
@@ -5690,6 +5862,7 @@ Source: "{app}\Manifest Support\com.apple.notificationsettings manifest-support.
 Source: "{app}\Manifest Support\com.apple.NSExtension manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.apple.osxserver.account manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.apple.preference.security manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
+Source: "{app}\Manifest Support\com.apple.preferences.sharing.SharingPrefsExtension manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.apple.print.add manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.apple.profileRemovalPassword manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.apple.proxy.http.global manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
@@ -5738,6 +5911,7 @@ Source: "{app}\Manifest Support\com.apple.TCC.configuration-profile-policy manif
 Source: "{app}\Manifest Support\com.apple.TextEdit manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.apple.thirdactiveethernet.managed manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.apple.thirdethernet.managed manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
+Source: "{app}\Manifest Support\com.apple.timed manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.apple.TimeMachine manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.apple.touristd manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.apple.tvremote manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
@@ -5765,6 +5939,7 @@ Source: "{app}\Manifest Support\com.jamf.connect.login manifest-support.plist"; 
 Source: "{app}\Manifest Support\com.jamf.connect.shares manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.jamf.connect.sync manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.jamf.connect.verify manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
+Source: "{app}\Manifest Support\com.jigsaw24.Elevate24SecurityExtension manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.macpaw.site.theunarchiver manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.mcneel.rhinoceros manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.microsoft.autoupdate.fba manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
@@ -5781,8 +5956,10 @@ Source: "{app}\Manifest Support\com.microsoft.Outlook manifest-support.plist"; D
 Source: "{app}\Manifest Support\com.microsoft.Powerpoint manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.microsoft.rdc.macos manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.microsoft.SkypeForBusiness manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
+Source: "{app}\Manifest Support\com.microsoft.VSCode manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.microsoft.wdav manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.microsoft.Word manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
+Source: "{app}\Manifest Support\com.okta.mobile.auth-service-extension manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.pratikkumar.airserver-mac manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.skype.skype manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.sqwarq.DetectX-Swift manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
@@ -6071,7 +6248,7 @@ IDP_503=Service temporaily unavailable (503)
 AppName=iMazing
 CompanyName=DigiDNA
 DependenciesDir=iMazing Dependencies
-AppVersion=3.4.0.10
+AppVersion=3.5.0.0
 MSI31Title=Windows Installer 3.1
 dotnet4Title=Microsoft .NET Framework 4.6.2
 UninstallAppleComponentsTitle=iMazing Apple Drivers Checker

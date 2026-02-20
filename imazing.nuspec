@@ -3,14 +3,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>imazing</id>
-    <version>3.4.0.10</version>
-    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-imazing/tree/v3.4.0.10</packageSourceUrl>
+    <version>3.5.0</version>
+    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-imazing/tree/v3.5.0</packageSourceUrl>
     <owners>MANICX100, sublym0nal</owners>
     <title>iMazing</title>
     <authors>DigiDNA</authors>
     <projectUrl>https://imazing.com/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-imazing@2bb0b9fc109139490c60bef0777617b7c1cd418d/imazing3.svg</iconUrl>
-    <copyright>© DigiDNA SARL, 2008-2025. All rights reserved.</copyright>
+    <copyright>© DigiDNA SARL, 2008-2026. All rights reserved.</copyright>
     <licenseUrl>https://imazing.com/licensing-policy</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Project is closed-source</projectSourceUrl>-->
@@ -60,9 +60,9 @@ Gain powerful backup, data extraction, media, and file transfer capabilities, an
 
 * `/NoShim` - Opt out of creating a shim, and removes any existing shim.
 
-## [Package Notes](https://github.com/brogers5/chocolatey-package-imazing/blob/v3.4.0.10/PACKAGE-NOTES.md)
+## [Package Notes](https://github.com/brogers5/chocolatey-package-imazing/blob/v3.5.0/PACKAGE-NOTES.md)
 ]]></description>
-    <releaseNotes>https://downloads.imazing.com/windows/iMazing/3.4.0.10/release-notes.html</releaseNotes>
+    <releaseNotes>https://downloads.imazing.com/windows/iMazing/3.5.0/release-notes.html</releaseNotes>
     <dependencies>
       <dependency id="netfx-4.6.2" version="4.6.2.0" />
       <!--Version should be 3.1.0.1, but no such version has been published to the Community Repository-->
