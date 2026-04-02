@@ -2,9 +2,9 @@
 
 [Setup]
 AppName=iMazing
-AppVerName=iMazing 3.5.1.0
+AppVerName=iMazing 3.5.2.0
 AppId=iMazing
-AppVersion=3.5.1.0
+AppVersion=3.5.2.0
 AppPublisher=DigiDNA
 AppPublisherURL=https://imazing.com
 AppSupportURL=https://imazing.com/support
@@ -13,7 +13,7 @@ DefaultDirName={pf}\DigiDNA\iMazing
 DefaultGroupName=iMazing
 UninstallDisplayIcon={app}\iMazing.exe
 UninstallDisplayName=iMazing
-OutputBaseFilename=tmp5lj5ha.tmp
+OutputBaseFilename=tmpm5awfy.tmp
 Compression=lzma
 ArchitecturesInstallIn64BitMode=x64 
 DisableDirPage=auto
@@ -1123,8 +1123,12 @@ Source: "{app}\Resources\DDNAToolKit\com.apple.apple-tv-4.png"; DestDir: "{app}\
 Source: "{app}\Resources\DDNAToolKit\com.apple.apple-tv-4k-3rd.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-se-3-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-se-3-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-11-23.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-11-32.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-11-34.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-11-36.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-11-38.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-11-39.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-11-4.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-11-41.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-ultra-3-14.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -1181,6 +1185,22 @@ Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-a16-3-clear.png"; DestDir: "
 Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-a16-3.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-a16-4-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-a16-4.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-air-11-inch-m4-1-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-air-11-inch-m4-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-air-11-inch-m4-4-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-air-11-inch-m4-4.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-air-11-inch-m4-6-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-air-11-inch-m4-6.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-air-11-inch-m4-7-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-air-11-inch-m4-7.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-air-13-inch-m4-1-clean.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-air-13-inch-m4-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-air-13-inch-m4-4-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-air-13-inch-m4-4.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-air-13-inch-m4-6-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-air-13-inch-m4-6.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-air-13-inch-m4-7-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-air-13-inch-m4-7.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-air-99989b.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-air-d7d9d8.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.ipad-air-m2-1-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -1500,8 +1520,22 @@ Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17-2-clear.png"; DestDir: 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17-pro-2-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17-pro-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17-pro-8-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17-pro-8.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17-pro-9-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17-pro-9.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17-pro-max-2-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17-pro-max-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17-pro-max-8-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17-pro-max-8.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17-pro-max-9-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17-pro-max-9.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17e-1-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17e-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17e-2-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17e-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17e-6-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17e-6.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-3g.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-4-black.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-4-cdma-black.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -1619,6 +1653,7 @@ Source: "{app}\Resources\DDNAToolKit\com.apple.ipod-touch.png"; DestDir: "{app}\
 Source: "{app}\Resources\DDNAToolKit\com.apple.macbookair-13-2022.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.macbookair-15-2023.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.macbookair.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.macbookneo-silver.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.macbookpro-13.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.macbookpro-14-2021.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.macbookpro-15.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -1789,16 +1824,28 @@ Source: "{app}\Resources\emojis\64@72\0000.png"; DestDir: "{app}\Resources\emoji
 Source: "{app}\Resources\emojis\64@72\hiddenglyph.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\silhouette.ML.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\silhouette.MR.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\silhouette.u1F468.u1F430.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\silhouette.u1F468.u1F430.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\silhouette.u1F468.u1F48B.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\silhouette.u1F468.u1F48B.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\silhouette.u1F468.u1FAEF.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\silhouette.u1F468.u1FAEF.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\silhouette.u1F468.u2764.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\silhouette.u1F468.u2764.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\silhouette.u1F469.u1F430.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\silhouette.u1F469.u1F430.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\silhouette.u1F469.u1F48B.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\silhouette.u1F469.u1F48B.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\silhouette.u1F469.u1FAEF.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\silhouette.u1F469.u1FAEF.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\silhouette.u1F469.u2764.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\silhouette.u1F469.u2764.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\silhouette.u1F9D1.u1F430.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\silhouette.u1F9D1.u1F430.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\silhouette.u1F9D1.u1F48B.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\silhouette.u1F9D1.u1F48B.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\silhouette.u1F9D1.u1FAEF.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\silhouette.u1F9D1.u1FAEF.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\silhouette.u1F9D1.u2764.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\silhouette.u1F9D1.u2764.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\silhouette.u1FAF1.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -2697,6 +2744,26 @@ Source: "{app}\Resources\emojis\64@72\u1F468.5.u1F48B.L.png"; DestDir: "{app}\Re
 Source: "{app}\Resources\emojis\64@72\u1F468.5.u1F48B.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468.5.u2764.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468.5.u2764.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468.u1F430.1.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468.u1F430.1.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468.u1F430.2.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468.u1F430.2.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468.u1F430.3.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468.u1F430.3.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468.u1F430.4.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468.u1F430.4.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468.u1F430.5.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468.u1F430.5.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468.u1FAEF.1.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468.u1FAEF.1.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468.u1FAEF.2.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468.u1FAEF.2.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468.u1FAEF.3.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468.u1FAEF.3.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468.u1FAEF.4.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468.u1FAEF.4.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468.u1FAEF.5.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F468.u1FAEF.5.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F33E.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F33E.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F468_u1F33E.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -2924,6 +2991,26 @@ Source: "{app}\Resources\emojis\64@72\u1F469.5.u1F48B.L.png"; DestDir: "{app}\Re
 Source: "{app}\Resources\emojis\64@72\u1F469.5.u1F48B.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469.5.u2764.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469.5.u2764.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469.u1F430.1.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469.u1F430.1.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469.u1F430.2.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469.u1F430.2.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469.u1F430.3.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469.u1F430.3.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469.u1F430.4.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469.u1F430.4.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469.u1F430.5.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469.u1F430.5.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469.u1FAEF.1.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469.u1FAEF.1.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469.u1FAEF.2.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469.u1FAEF.2.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469.u1FAEF.3.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469.u1FAEF.3.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469.u1FAEF.4.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469.u1FAEF.4.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469.u1FAEF.5.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F469.u1FAEF.5.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F33E.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F33E.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F469_u1F33E.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -3183,6 +3270,24 @@ Source: "{app}\Resources\emojis\64@72\u1F46E.4.W.png"; DestDir: "{app}\Resources
 Source: "{app}\Resources\emojis\64@72\u1F46E.5.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F46E.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F46E.5.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F46F.0.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F46F.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F46F.0.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F46F.1.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F46F.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F46F.1.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F46F.2.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F46F.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F46F.2.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F46F.3.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F46F.3.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F46F.3.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F46F.4.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F46F.4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F46F.4.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F46F.5.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F46F.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F46F.5.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F46F.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F46F.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F46F.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -4075,6 +4180,7 @@ Source: "{app}\Resources\emojis\64@72\u1F6D2.png"; DestDir: "{app}\Resources\emo
 Source: "{app}\Resources\emojis\64@72\u1F6D5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6D6.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6D7.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F6D8.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6DC.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6DD.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F6DE.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -4325,6 +4431,24 @@ Source: "{app}\Resources\emojis\64@72\u1F939.5.M.png"; DestDir: "{app}\Resources
 Source: "{app}\Resources\emojis\64@72\u1F939.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F939.5.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F93A.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F93C.0.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F93C.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F93C.0.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F93C.1.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F93C.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F93C.1.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F93C.2.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F93C.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F93C.2.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F93C.3.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F93C.3.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F93C.3.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F93C.4.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F93C.4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F93C.4.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F93C.5.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F93C.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F93C.5.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F93C.M.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F93C.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F93C.W.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -4662,6 +4786,26 @@ Source: "{app}\Resources\emojis\64@72\u1F9D1.5.u1F48B.L.png"; DestDir: "{app}\Re
 Source: "{app}\Resources\emojis\64@72\u1F9D1.5.u1F48B.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1.5.u2764.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1.5.u2764.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1.u1F430.1.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1.u1F430.1.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1.u1F430.2.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1.u1F430.2.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1.u1F430.3.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1.u1F430.3.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1.u1F430.4.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1.u1F430.4.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1.u1F430.5.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1.u1F430.5.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1.u1FAEF.1.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1.u1FAEF.1.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1.u1FAEF.2.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1.u1FAEF.2.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1.u1FAEF.3.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1.u1FAEF.3.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1.u1FAEF.4.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1.u1FAEF.4.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1.u1FAEF.5.L.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1.u1FAEF.5.R.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F33E.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F33E.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F33E.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -4841,6 +4985,12 @@ Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9BD.5.u27A1.flip"; DestDir: "{ap
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9D1_u1F9D2_u1F9D2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9D2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u1F9D2_u1F9D2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1FA70.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1FA70.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1FA70.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1FA70.3.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1FA70.4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1F9D1_u1FA70.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u2695.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u2695.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1F9D1_u2695.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -5100,6 +5250,8 @@ Source: "{app}\Resources\emojis\64@72\u1FA86.png"; DestDir: "{app}\Resources\emo
 Source: "{app}\Resources\emojis\64@72\u1FA87.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FA88.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FA89.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1FA8A.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1FA8E.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FA8F.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FA90.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FA91.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -5171,6 +5323,8 @@ Source: "{app}\Resources\emojis\64@72\u1FAC5.3.png"; DestDir: "{app}\Resources\e
 Source: "{app}\Resources\emojis\64@72\u1FAC5.4.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAC5.5.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAC6.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1FAC8.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1FACD.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FACE.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FACF.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAD0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -5197,6 +5351,8 @@ Source: "{app}\Resources\emojis\64@72\u1FAE6.png"; DestDir: "{app}\Resources\emo
 Source: "{app}\Resources\emojis\64@72\u1FAE7.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAE8.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAE9.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1FAEA.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
+Source: "{app}\Resources\emojis\64@72\u1FAEF.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAF0.0.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAF0.1.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
 Source: "{app}\Resources\emojis\64@72\u1FAF0.2.png"; DestDir: "{app}\Resources\emojis\64@72"; Flags: ignoreversion 
@@ -5742,6 +5898,7 @@ Source: "{app}\manifests\com.skype.skype.plist"; DestDir: "{app}\manifests"; Fla
 Source: "{app}\manifests\com.sqwarq.DetectX-Swift.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.ThomsonResearchSoft.EndNote.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.tinyspeck.slackmacgap.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\com.todesktop.230313mzl4w4u92.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.trusourcelabs.NoMAD.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.twingate.macos.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.twocanoes.xcreds.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
@@ -5965,6 +6122,7 @@ Source: "{app}\Manifest Support\com.skype.skype manifest-support.plist"; DestDir
 Source: "{app}\Manifest Support\com.sqwarq.DetectX-Swift manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.ThomsonResearchSoft.EndNote manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.tinyspeck.slackmacgap manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
+Source: "{app}\Manifest Support\com.todesktop.230313mzl4w4u92 manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.trusourcelabs.NoMAD manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\com.unity3d.UnityEditor5.x manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
 Source: "{app}\Manifest Support\Configuration manifest-support.plist"; DestDir: "{app}\Manifest Support"; Flags: ignoreversion 
@@ -6248,7 +6406,7 @@ IDP_503=Service temporaily unavailable (503)
 AppName=iMazing
 CompanyName=DigiDNA
 DependenciesDir=iMazing Dependencies
-AppVersion=3.5.1.0
+AppVersion=3.5.2.0
 MSI31Title=Windows Installer 3.1
 dotnet4Title=Microsoft .NET Framework 4.6.2
 UninstallAppleComponentsTitle=iMazing Apple Drivers Checker
