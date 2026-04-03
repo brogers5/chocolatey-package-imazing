@@ -29,3 +29,12 @@ else {
         Write-Warning 'Skipping shim creation - install location not detected'
     }
 }
+
+if (!$pp.DontCheckForBonjour) {    
+    $bonjourRegistryKey = Get-UninstallRegistryKey -SoftwareName 'Bonjour'
+    if ($null -ne $bonjourRegistryKey -and ([Environment]::OSVersion.Version.Major -ge 10)) {
+        Write-Warning "An installation of Bonjour (v$($bonjourRegistryKey.DisplayVersion)) was detected."
+        Write-Warning 'DigiDNA no longer recommends its use on Windows 10+, due to potential conflicts with Windows''s mDNS functionality.'
+        Write-Warning 'It is recommended to uninstall Bonjour at your earliest convenience.'
+    }
+}

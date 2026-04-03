@@ -59,6 +59,7 @@ Gain powerful backup, data extraction, media, and file transfer capabilities, an
 ## Package Parameters
 
 * `/NoShim` - Opt out of creating a shim, and removes any existing shim.
+* `/DontCheckForBonjour` - As of v3.5.2, DigiDNA no longer recommends using Bonjour on Windows 10+, due to possible conflicts with Windows's native Multicast DNS (mDNS) functionality. If you still require Bonjour, pass this to suppress the package's check and warning.
 
 ## [Package Notes](https://github.com/brogers5/chocolatey-package-imazing/blob/v3.5.2/PACKAGE-NOTES.md)
 ]]></description>
