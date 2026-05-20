@@ -3,8 +3,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>imazing</id>
-    <version>3.5.2</version>
-    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-imazing/tree/v3.5.2</packageSourceUrl>
+    <version>3.5.3</version>
+    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-imazing/tree/v3.5.3</packageSourceUrl>
     <owners>MANICX100, sublym0nal</owners>
     <title>iMazing</title>
     <authors>DigiDNA</authors>
@@ -61,9 +61,9 @@ Gain powerful backup, data extraction, media, and file transfer capabilities, an
 * `/NoShim` - Opt out of creating a shim, and removes any existing shim.
 * `/DontCheckForBonjour` - As of v3.5.2, DigiDNA no longer recommends using Bonjour on Windows 10+, due to possible conflicts with Windows's native Multicast DNS (mDNS) functionality. If you still require Bonjour, pass this to suppress the package's check and warning.
 
-## [Package Notes](https://github.com/brogers5/chocolatey-package-imazing/blob/v3.5.2/PACKAGE-NOTES.md)
+## [Package Notes](https://github.com/brogers5/chocolatey-package-imazing/blob/v3.5.3/PACKAGE-NOTES.md)
 ]]></description>
-    <releaseNotes>https://downloads.imazing.com/windows/iMazing/3.5.2/release-notes.html</releaseNotes>
+    <releaseNotes>https://downloads.imazing.com/windows/iMazing/3.5.3/release-notes.html</releaseNotes>
     <dependencies>
       <dependency id="netfx-4.6.2" version="4.6.2.0" />
       <dependency id="chocolatey-core.extension" version="1.0.0" />
