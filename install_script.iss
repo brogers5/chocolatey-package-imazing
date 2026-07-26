@@ -2,9 +2,9 @@
 
 [Setup]
 AppName=iMazing
-AppVerName=iMazing 3.5.5.0
+AppVerName=iMazing 3.6.0.0
 AppId=iMazing
-AppVersion=3.5.5.0
+AppVersion=3.6.0.0
 AppPublisher=DigiDNA
 AppPublisherURL=https://imazing.com
 AppSupportURL=https://imazing.com/support
@@ -13,7 +13,7 @@ DefaultDirName={pf}\DigiDNA\iMazing
 DefaultGroupName=iMazing
 UninstallDisplayIcon={app}\iMazing.exe
 UninstallDisplayName=iMazing
-OutputBaseFilename=tmpfnn43u.tmp
+OutputBaseFilename=tmpfe2nmx.tmp
 Compression=lzma
 ArchitecturesInstallIn64BitMode=x64 
 DisableDirPage=auto
@@ -708,6 +708,7 @@ Source: "{app}\Resources\Dataset-Photos.ico"; DestDir: "{app}\Resources"; Flags:
 Source: "{app}\Resources\Dataset-Ringtones.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\Dataset-Safari.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\Dataset-Storage.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\Dataset-UnifiedLogs.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\defaultAttachmentIcon.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\DesktopComputerTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\DownloadTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
@@ -715,6 +716,8 @@ Source: "{app}\Resources\DRMTemplate.ico"; DestDir: "{app}\Resources"; Flags: ig
 Source: "{app}\Resources\DropZone.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\EmptyStateBackups-Dark.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\EmptyStateBackups.png"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyStateBlueprints-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyStateBlueprints.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\EmptyState_Books-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\EmptyState_Books.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\EmptyState_Books_Audio-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
@@ -737,6 +740,8 @@ Source: "{app}\Resources\EmptyState_Ringtones-Dark.ico"; DestDir: "{app}\Resourc
 Source: "{app}\Resources\EmptyState_Ringtones.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\EmptyState_Safari-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\EmptyState_Safari.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Unified_Logs-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\EmptyState_Unified_Logs.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\EmptyState_VoiceMail-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\EmptyState_VoiceMail.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\EmptyState_Voicememo-Dark.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
@@ -882,6 +887,7 @@ Source: "{app}\Resources\QuicktransferDropArrowDown.ico"; DestDir: "{app}\Resour
 Source: "{app}\Resources\QuicktransferDropArrowsCircle.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\RadiowavesTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\Readme.txt"; DestDir: "{app}\Resources"; Flags: ignoreversion 
+Source: "{app}\Resources\RefreshButtonTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\RepeatOneTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\RepeatTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
 Source: "{app}\Resources\SearchButtonTemplate.ico"; DestDir: "{app}\Resources"; Flags: ignoreversion 
@@ -1776,6 +1782,7 @@ Source: "{app}\Resources\DDNAToolKit\com.apple.watch-u2-8.png"; DestDir: "{app}\
 Source: "{app}\Resources\DDNAToolKit\DeviceInfo.plist"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\dfu.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\emojis.txt"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\FreshiTunesDB.plist"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\iOS11-screen-hello-3to2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\iOS11-screen-hello-4to3.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\iOS11-screen-hello-71to40.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -1816,6 +1823,21 @@ Source: "{app}\Resources\DDNAToolKit\watchOSBluetoothLogging.mobileconfig"; Dest
 Source: "{app}\Resources\DDNAToolKit\watchOSlogging.mobileconfig"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\en.lproj\DDNAToolKitErrors.strings"; DestDir: "{app}\Resources\DDNAToolKit\en.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\en.lproj\DDNAToolKitLabels.strings"; DestDir: "{app}\Resources\DDNAToolKit\en.lproj"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\itlp\nano5g\Dynamic.itdb"; DestDir: "{app}\Resources\DDNAToolKit\itlp\nano5g"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\itlp\nano5g\Extras.itdb"; DestDir: "{app}\Resources\DDNAToolKit\itlp\nano5g"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\itlp\nano5g\Genius.itdb"; DestDir: "{app}\Resources\DDNAToolKit\itlp\nano5g"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\itlp\nano5g\Library.itdb"; DestDir: "{app}\Resources\DDNAToolKit\itlp\nano5g"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\itlp\nano5g\Locations.itdb"; DestDir: "{app}\Resources\DDNAToolKit\itlp\nano5g"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\itlp\nano6g\Dynamic.itdb"; DestDir: "{app}\Resources\DDNAToolKit\itlp\nano6g"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\itlp\nano6g\Extras.itdb"; DestDir: "{app}\Resources\DDNAToolKit\itlp\nano6g"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\itlp\nano6g\Genius.itdb"; DestDir: "{app}\Resources\DDNAToolKit\itlp\nano6g"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\itlp\nano6g\Library.itdb"; DestDir: "{app}\Resources\DDNAToolKit\itlp\nano6g"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\itlp\nano6g\Locations.itdb"; DestDir: "{app}\Resources\DDNAToolKit\itlp\nano6g"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\itlp\nano7g\Dynamic.itdb"; DestDir: "{app}\Resources\DDNAToolKit\itlp\nano7g"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\itlp\nano7g\Extras.itdb"; DestDir: "{app}\Resources\DDNAToolKit\itlp\nano7g"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\itlp\nano7g\Genius.itdb"; DestDir: "{app}\Resources\DDNAToolKit\itlp\nano7g"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\itlp\nano7g\Library.itdb"; DestDir: "{app}\Resources\DDNAToolKit\itlp\nano7g"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\itlp\nano7g\Locations.itdb"; DestDir: "{app}\Resources\DDNAToolKit\itlp\nano7g"; Flags: ignoreversion 
 Source: "{app}\Resources\de.lproj\GenericLabels.strings"; DestDir: "{app}\Resources\de.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\de.lproj\iMazingLabels.strings"; DestDir: "{app}\Resources\de.lproj"; Flags: ignoreversion 
 Source: "{app}\Resources\de.lproj\InfoPlist.strings"; DestDir: "{app}\Resources\de.lproj"; Flags: ignoreversion 
@@ -5842,6 +5864,7 @@ Source: "{app}\manifests\com.cloudflare.warp.plist"; DestDir: "{app}\manifests";
 Source: "{app}\manifests\com.crowdstrike.falcon.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.dare.zappl.preferences.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.docker.config.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\com.frontapp.Front.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.fxfactory.FxFactory.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.github.ants-framework.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.github.macadmins.Nudge.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
@@ -5904,6 +5927,7 @@ Source: "{app}\manifests\com.twingate.macos.plist"; DestDir: "{app}\manifests"; 
 Source: "{app}\manifests\com.twocanoes.xcreds.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.unity3d.UnityEditor5.x.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.vpntracker.365mac.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\com.zappl.AppBar.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.zscaler.installparams.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\Configuration.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\corp.sap.privileges.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
@@ -5925,7 +5949,9 @@ Source: "{app}\manifests\menu.nomad.shares.plist"; DestDir: "{app}\manifests"; F
 Source: "{app}\manifests\MunkiReport.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\net.glencode.Particulars.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\net.glencode.Particulars.Widget.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\net.whatsapp.WhatsApp.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\nl.root3.support.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\notion.id.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\org.churchofjesuschrist.dorm.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\org.mozilla.firefox.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\org.sveinbjorn.Platypus.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
@@ -6406,7 +6432,7 @@ IDP_503=Service temporaily unavailable (503)
 AppName=iMazing
 CompanyName=DigiDNA
 DependenciesDir=iMazing Dependencies
-AppVersion=3.5.5.0
+AppVersion=3.6.0.0
 MSI31Title=Windows Installer 3.1
 dotnet4Title=Microsoft .NET Framework 4.6.2
 UninstallAppleComponentsTitle=iMazing Apple Drivers Checker
