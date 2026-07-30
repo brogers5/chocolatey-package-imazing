@@ -4,9 +4,9 @@ $softwareNamePattern = 'iMazing'
 $packageArgs = @{
     packageName    = $env:ChocolateyPackageName
     fileType       = 'EXE'
-    url            = 'https://downloads.imazing.com/windows/iMazing/3.6.1/iMazing_3.6.1.exe'
+    url            = 'https://downloads.imazing.com/windows/iMazing/3.6.2/iMazing_3.6.2.exe'
     softwareName   = $softwareNamePattern
-    checksum       = 'c9990246727611a7651ff50bc68a08a87b0894c2b786cb50240bd69c77504a70'
+    checksum       = 'a23bdbff1d35ba21b33074142e2c3aed7d35e54764e87154c0e6b2ad4086c73c'
     checksumType   = 'sha256'
     validExitCodes = @(0)
     silentArgs     = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /DONTINSTALLAPPLECOMPONENTS /DONTSTART /LOG=`"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).Install.log"
