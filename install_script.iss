@@ -2,9 +2,9 @@
 
 [Setup]
 AppName=iMazing
-AppVerName=iMazing 3.6.3.0
+AppVerName=iMazing 3.6.5.0
 AppId=iMazing
-AppVersion=3.6.3.0
+AppVersion=3.6.5.0
 AppPublisher=DigiDNA
 AppPublisherURL=https://imazing.com
 AppSupportURL=https://imazing.com/support
@@ -13,7 +13,7 @@ DefaultDirName={pf}\DigiDNA\iMazing
 DefaultGroupName=iMazing
 UninstallDisplayIcon={app}\iMazing.exe
 UninstallDisplayName=iMazing
-OutputBaseFilename=tmpzkc1rv.tmp
+OutputBaseFilename=tmptd2nhq.tmp
 Compression=lzma
 ArchitecturesInstallIn64BitMode=x64 
 DisableDirPage=auto
@@ -1137,8 +1137,19 @@ Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-11-38.png"; De
 Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-11-39.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-11-4.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-11-41.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-12-34.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-12-36.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-12-39.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-12-41.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-12-48.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-12-49.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-12-51.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-12-52.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-series-12-53.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-ultra-3-14.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-ultra-3-8.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-ultra-4-14.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.apple-watch-ultra-4-8.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.homepod-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.homepod-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.homepod-2nd-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -1542,6 +1553,22 @@ Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17e-2-clear.png"; DestDir:
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17e-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17e-6-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-17e-6.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-18-pro-1-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-18-pro-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-18-pro-2-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-18-pro-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-18-pro-6-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-18-pro-6.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-18-pro-9-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-18-pro-9.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-18-pro-max-1-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-18-pro-max-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-18-pro-max-2-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-18-pro-max-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-18-pro-max-6-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-18-pro-max-6.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-18-pro-max-9-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-18-pro-max-9.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-3g.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-4-black.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-4-cdma-black.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -1603,6 +1630,10 @@ Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-se-e5bdb5.png"; DestDir: "
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-se3-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-se3-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-se3-6.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-v68-2-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-v68-2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-v68-9-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-v68-9.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-x-1-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-x-1.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\com.apple.iphone-x-2-clear.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -1787,6 +1818,7 @@ Source: "{app}\Resources\DDNAToolKit\iOS11-screen-hello-3to2.png"; DestDir: "{ap
 Source: "{app}\Resources\DDNAToolKit\iOS11-screen-hello-4to3.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\iOS11-screen-hello-71to40.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\iOS11-screen-hello-812to375.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\iOS15-screen-hello-140to100.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\iOS15-screen-hello-3to2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\iOS15-screen-hello-4to3.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\iOS15-screen-hello-71to40.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -1798,6 +1830,7 @@ Source: "{app}\Resources\DDNAToolKit\iTunesPrefs"; DestDir: "{app}\Resources\DDN
 Source: "{app}\Resources\DDNAToolKit\pdf-footer-icon-im-signed.jpg"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\pdf-footer-icon-im-signed.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\pdf-footer-icon-im-unsigned.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\screen-recovery-140to100-lightning.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\screen-recovery-3to2-30pin.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\screen-recovery-3to2-lightning.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\screen-recovery-4to3-30pin.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -1806,6 +1839,7 @@ Source: "{app}\Resources\DDNAToolKit\screen-recovery-71to40-lightning.png"; Dest
 Source: "{app}\Resources\DDNAToolKit\screen-recovery-812to375-lightning.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\screen-recovery-appletv-atv5.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\screen-recovery-appletv.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
+Source: "{app}\Resources\DDNAToolKit\screen-restore-140to100.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\screen-restore-3to2.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\screen-restore-4to3.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
 Source: "{app}\Resources\DDNAToolKit\screen-restore-71to40.png"; DestDir: "{app}\Resources\DDNAToolKit"; Flags: ignoreversion 
@@ -5864,8 +5898,10 @@ Source: "{app}\manifests\com.cloudflare.warp.plist"; DestDir: "{app}\manifests";
 Source: "{app}\manifests\com.crowdstrike.falcon.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.dare.zappl.preferences.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.docker.config.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\com.electron.dialpad.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.frontapp.Front.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.fxfactory.FxFactory.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\com.gingerlabs.notability.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.github.ants-framework.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.github.macadmins.Nudge.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.github.macadmins.SupportCompanion.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
@@ -5908,6 +5944,7 @@ Source: "{app}\manifests\com.microsoft.SkypeForBusiness.plist"; DestDir: "{app}\
 Source: "{app}\manifests\com.microsoft.VSCode.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.microsoft.wdav.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.microsoft.Word.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\com.missiveapp.osx.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.northpolesec.santa.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.okta.mobile.auth-service-extension.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.okta.mobile.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
@@ -5922,6 +5959,7 @@ Source: "{app}\manifests\com.sqwarq.DetectX-Swift.plist"; DestDir: "{app}\manife
 Source: "{app}\manifests\com.ThomsonResearchSoft.EndNote.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.tinyspeck.slackmacgap.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.todesktop.230313mzl4w4u92.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
+Source: "{app}\manifests\com.trelica.macapp.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.trusourcelabs.NoMAD.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.twingate.macos.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
 Source: "{app}\manifests\com.twocanoes.xcreds.plist"; DestDir: "{app}\manifests"; Flags: ignoreversion 
@@ -6432,7 +6470,7 @@ IDP_503=Service temporaily unavailable (503)
 AppName=iMazing
 CompanyName=DigiDNA
 DependenciesDir=iMazing Dependencies
-AppVersion=3.6.3.0
+AppVersion=3.6.5.0
 MSI31Title=Windows Installer 3.1
 dotnet4Title=Microsoft .NET Framework 4.6.2
 UninstallAppleComponentsTitle=iMazing Apple Drivers Checker
